@@ -945,6 +945,7 @@ body
    background-image: none;
    border-radius: 0px;
    box-sizing: border-box;
+   margin: 0;
 }
 #wb_Welcome1
 {
@@ -1256,7 +1257,7 @@ body
 #ModuleCodes > .col-1
 {
    flex: 0 0 auto;
-   height: 275px;
+   height: 320px;
 }
 #ModuleCodes > .col-1
 {
@@ -3339,6 +3340,7 @@ body
    background-image: none;
    border-radius: 0px;
    box-sizing: border-box;
+   margin: 0;
 }
     * {
       box-sizing: border-box;

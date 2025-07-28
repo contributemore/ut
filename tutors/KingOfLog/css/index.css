@@ -945,6 +945,7 @@ body
    background-image: none;
    border-radius: 0px;
    box-sizing: border-box;
+   margin: 0;
 }
 #wb_testimonials4LayoutGrid
 {
@@ -1100,4 +1101,5 @@ body
    background-image: none;
    border-radius: 0px;
    box-sizing: border-box;
+   margin: 0;
 }
