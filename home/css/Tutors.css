@@ -80,7 +80,11 @@ h6, .h6
 .module-card
 {
    text-decoration: none;
-   background-color: transparent;
+   background-color: #E9E9E9;
+   --background-color: rgba(233,233,233,1.00);
    border: 1px solid #696969;
    --border-color: #696969;
+   cursor: pointer  !important;
+   --border-color: #696969;
+   --background-color: rgba(204,204,204,1.00);
 }
