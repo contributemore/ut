@@ -1223,7 +1223,7 @@ body
    width: 100%;
    background-color: #F4F5F9;
    background-image: none;
-   border: 0px solid #CCCCCC;
+   border: 0px solid #FFFFFF;
    border-radius: 0px;
    box-sizing: border-box;
    margin: 0;
@@ -1768,10 +1768,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #trendingCard1-card-body
@@ -2630,10 +2626,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card1-card-body
@@ -2695,10 +2687,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card2-card-body
@@ -2760,10 +2748,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card3-card-body
@@ -3096,10 +3080,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card4-card-body
@@ -3161,10 +3141,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card5-card-body
@@ -3226,10 +3202,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card6-card-body
@@ -3291,10 +3263,6 @@ body
    max-width: 320px;
    margin-left: auto !important;
    margin-right: auto !important;
-   background-color: transparent;
-   background-image: none;
-   border: 1px solid #DEDEDE;
-   border-radius: 0px;
    text-align: left;
 }
 #Card7-card-body

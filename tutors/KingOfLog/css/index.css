@@ -1,0 +1,28 @@
+  html {
+    scroll-padding-top: 80px;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+  }
+
+  body {
+    padding-top: 80px; /* Prevent content being hidden behind header initially */
+  }
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
