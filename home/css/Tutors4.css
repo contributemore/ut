@@ -97,3 +97,9 @@ h6, .h6
    cursor: pointer  !important;
    --border-color: #DEDEDE;
 }
+.hover
+{
+   text-decoration: none;
+   background-color: transparent;
+   cursor: pointer  !important;
+}
