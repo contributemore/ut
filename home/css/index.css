@@ -1170,7 +1170,7 @@ body
 #categoriesLayoutGrid1
 {
    box-sizing: border-box;
-   padding: 10px 15px 0 15px;
+   padding: 40px 15px 0 15px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -1624,7 +1624,7 @@ body
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 32px;
+   font-size: 37px;
    margin: 0;
    text-align: center;
    text-transform: none;
