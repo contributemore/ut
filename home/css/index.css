@@ -2855,60 +2855,6 @@ body
    width: 100% !important;
 }
 }
-#wb_BulletedList1
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   background-color: transparent;
-   background-image: none;
-   margin: 0;
-}
-#wb_BulletedList1 .row
-{
-   display: flex;
-}
-#wb_BulletedList1 .bullet
-{
-   color: #000000;
-   float: left;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 32px;
-   padding: 0px;
-   text-align: left;
-   vertical-align: top;
-   flex-grow: 0;
-   flex-shrink: 0;
-   width: 49px;
-}
-#wb_BulletedList1 .item
-{
-   margin-left: 51px;
-   padding: 0px 0 0px 0;
-   vertical-align: top;
-}
-#wb_BulletedList1 p, #wb_BulletedList1 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_BulletedList1 .item0
-{
-   color: #000000;
-   font-family: Arial;
-   font-size: 32px;
-   line-height: 36px;
-   text-align: left;
-}
-#wb_BulletedList1 .item1
-{
-   color: #000000;
-   font-family: Arial;
-   font-size: 32px;
-   line-height: 36px;
-   text-align: left;
-}
 #wb_LayoutGrid10
 {
    clear: both;
@@ -2993,7 +2939,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 5px 0 0 0;
-   margin: 0;
+   margin: 0 0 50px 0 ;
    text-align: center;
 }
 #wb_Text5 div
@@ -3003,8 +2949,8 @@ body
 #wb_Text5
 {
    display: inline-block;
-   margin: 0;
-   width: 260px;
+   margin: 0 0 50px 0 ;
+   width: 324px;
    height: 36px;
 }
 #wb_LayoutGrid11
@@ -3853,6 +3799,66 @@ body
    line-height: 0 !important;
    margin: 0;
    padding: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 30px;
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text3
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 27px;
+   line-height: 30px;
+}
+#wb_Text3 p, #wb_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
 }
 #PageFooter1
 {
