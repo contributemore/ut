@@ -10,7 +10,6 @@
 <link href="UTicon.png" rel="icon" sizes="128x128" type="image/png">
 <link href="UTicon.png" rel="icon" sizes="128x128" type="image/png">
 <link href="css/font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&400&subset=latin&display=swap" rel="stylesheet">
 <link href="css/Tutors4.css" rel="stylesheet">
 <link href="css/index.css" rel="stylesheet">
 <script src="js/jquery-1.12.4.min.js"></script>
@@ -86,6 +85,16 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_HSP').offset().top }, 600, 'easeOutCubic');
    });
+   $("a[href*='#Footer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Footer1').offset().top }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#Footer1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Footer1').offset().top }, 600, 'easeOutCirc');
+   });
    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
 });
 $(window).on('load', function()
@@ -111,7 +120,6 @@ $(window).on('load', function()
 <body>
 <div id="wb_Header1">
 <div id="Header1">
-<div class="row">
 <div class="col-1">
 <div id="wb_menu15Logo1" style="display:inline-block;width:77px;height:33px;z-index:0;">
 <h1 id="menu15Logo1"><a href="./../../home/">UFS</a></h1>
@@ -142,7 +150,6 @@ $(window).on('load', function()
 <a href="https://www.ufstutors.co.za/home/#contact" class="nav-link">Contact</a>
 </li>
 </ul>
-</div>
 </div>
 </div>
 </div>
@@ -234,10 +241,13 @@ $(window).on('load', function()
 </div>
 </div>
 </div>
-<div id="PageFooter1" style="display:inline-block;position:relative;text-align:center;width:100%;height:200px;z-index:23;">
-<div id="PageFooter1_Container" style="width:360px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Text1" style="position:absolute;left:27px;top:18px;width:307px;height:145px;text-align:center;z-index:18;">
-<span style="color:#FFFFFF;">Disclaimer: ufstutors.co.za is an independent platform and is not affiliated with, endorsed by, or officially connected to the University of the Free State (UFS). All content and services offered are solely the responsibility of ufstutors.co.za.<br><br>Copyright © 2025 ufstutors.co.za All Rights Reserved</span></div>
+<div id="wb_Footer1">
+<div id="Footer1">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Disclaimer: ufstutors.co.za is an independent platform and is not affiliated with, endorsed by, or officially connected to the University of the Free State (UFS). All content and services offered are solely the responsibility of ufstutors.co.za.<br><br>Copyright &#0169; 2025 ufstutors.co.za All Rights Reserved<br></span>
+</div>
+</div>
 </div>
 </div>
 <div id="preloader"></div>
