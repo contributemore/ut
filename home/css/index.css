@@ -1414,7 +1414,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: right;
+   text-align: center;
 }
 #LayoutGrid4 > .row > .col-2
 {
@@ -1953,7 +1953,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid12 > .row > .col-2
 {
@@ -1962,7 +1962,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid12:before,
 #LayoutGrid12:after,
@@ -3475,7 +3475,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid18 > .row > .col-2
 {
@@ -3484,7 +3484,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid18:before,
 #LayoutGrid18:after,
