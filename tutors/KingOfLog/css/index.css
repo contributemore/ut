@@ -86,7 +86,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 66.66666667%;
+   width: 58.33333333%;
    text-align: left;
 }
 #Header1 > .row > .col-2
@@ -95,7 +95,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 33.33333333%;
+   width: 41.66666667%;
    text-align: right;
 }
 #Header1:before,
