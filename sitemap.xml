@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.ufstutors.co.za/home/</loc>
-		<lastmod>2025-07-29</lastmod>
+		<lastmod>2025-07-30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
 	<url>
 		<loc>https://www.ufstutors.co.za/tutors/KingOfLog/</loc>
-		<lastmod>2025-07-29</lastmod>
+		<lastmod>2025-07-30</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.ufstutors.co.za/tutors/Dipalo/</loc>
+		<lastmod>2025-07-30</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.ufstutors.co.za/tutors/Ed_Murphy/</loc>
+		<lastmod>2025-07-30</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.ufstutors.co.za/tutors/Learn_with_eMJAY/</loc>
+		<lastmod>2025-07-30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>

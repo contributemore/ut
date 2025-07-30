@@ -900,7 +900,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
-   margin: 0 100px 0 100px;
+   margin: 0;
    text-align: center;
 }
 #wb_Text1
@@ -1015,14 +1015,14 @@ body
    width: 100% !important;
 }
 }
-#upStickyLayer
+#backToTop
 {
    background-color: #696969;
    background-image: none;
    border-radius: 50%;
    opacity: 0.77;
 }
-#wb_upIcon
+#wb_backToTopIcon
 {
    background-color: transparent;
    background-image: none;
@@ -1033,11 +1033,11 @@ body
    padding: 4px 4px 4px 4px;
    vertical-align: top;
 }
-#wb_upIcon a
+#wb_backToTopIcon a
 {
    text-decoration: none;
 }
-#wb_upIcon a::after
+#wb_backToTopIcon a::after
 {
    position: absolute;
    top: 0;
@@ -1048,7 +1048,7 @@ body
    pointer-events: auto;
    content: "";
 }
-#upIcon
+#backToTopIcon
 {
    height: 24px;
    width: 24px;
@@ -1056,7 +1056,7 @@ body
    flex-wrap: nowrap;
    justify-content: center;
 }
-#upIcon i
+#backToTopIcon i
 {
    color: #FFFFFF;
    display: inline-block;
@@ -1064,7 +1064,7 @@ body
    line-height: 24px;
    vertical-align: middle;
 }
-#wb_upIcon:hover #upIcon i
+#wb_backToTopIcon:hover #backToTopIcon i
 {
    color: #F9F9F9;
 }
@@ -1404,7 +1404,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: center;
+   text-align: right;
 }
 #LayoutGrid4 > .row > .col-2
 {
@@ -1413,7 +1413,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 50%;
-   text-align: center;
+   text-align: left;
 }
 #LayoutGrid4:before,
 #LayoutGrid4:after,
@@ -1428,7 +1428,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 400px)
 {
 #LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2
 {
@@ -1585,7 +1585,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 1080px)
+@media (max-width: 800px)
 {
 #trendingLayoutGrid2 > .row > .col-1, #trendingLayoutGrid2 > .row > .col-2
 {
@@ -1967,7 +1967,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 400px)
 {
 #LayoutGrid12 > .row > .col-1, #LayoutGrid12 > .row > .col-2
 {
@@ -2350,7 +2350,7 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#wb_trendingCard1
+#wb_KOL1644
 {
    position: relative;
    display: flex;
@@ -2362,13 +2362,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#trendingCard1-card-body
+#KOL1644-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#trendingCard1-card-item0
+#KOL1644-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -2378,7 +2378,7 @@ body
    width: 100%;
    height: auto;
 }
-#trendingCard1-card-item1
+#KOL1644-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -2389,7 +2389,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#trendingCard1-card-item2
+#KOL1644-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -2400,7 +2400,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#trendingCard1-card-item3
+#KOL1644-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -2576,7 +2576,7 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_Card1
+#wb_DIP1644
 {
    position: relative;
    display: flex;
@@ -2588,13 +2588,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card1-card-body
+#DIP1644-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card1-card-item0
+#DIP1644-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -2604,7 +2604,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card1-card-item1
+#DIP1644-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -2615,7 +2615,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card1-card-item2
+#DIP1644-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -2626,7 +2626,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card1-card-item3
+#DIP1644-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -2637,7 +2637,7 @@ body
    font-style: normal;
    font-size: 21px;
 }
-#wb_Card2
+#wb_EDM1644
 {
    position: relative;
    display: flex;
@@ -2649,13 +2649,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card2-card-body
+#EDM1644-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card2-card-item0
+#EDM1644-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -2665,7 +2665,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card2-card-item1
+#EDM1644-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -2676,7 +2676,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card2-card-item2
+#EDM1644-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -2687,7 +2687,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card2-card-item3
+#EDM1644-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -2698,7 +2698,7 @@ body
    font-style: normal;
    font-size: 21px;
 }
-#wb_Card3
+#wb_EMJ1644
 {
    position: relative;
    display: flex;
@@ -2710,13 +2710,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card3-card-body
+#EMJ1644-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card3-card-item0
+#EMJ1644-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -2726,7 +2726,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card3-card-item1
+#EMJ1644-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -2737,7 +2737,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card3-card-item2
+#EMJ1644-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -2748,7 +2748,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card3-card-item3
+#EMJ1644-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -2937,7 +2937,7 @@ body
 {
    display: inline-block;
    margin: 0 0 50px 0 ;
-   width: 324px;
+   width: 260px;
    height: 36px;
 }
 #wb_LayoutGrid11
@@ -3086,7 +3086,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 400px)
 {
 #LayoutGrid15 > .row > .col-1
 {
@@ -3208,7 +3208,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 1080px)
+@media (max-width: 800px)
 {
 #LayoutGrid16 > .row > .col-1, #LayoutGrid16 > .row > .col-2
 {
@@ -3288,7 +3288,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 400px)
 {
 #LayoutGrid17 > .row > .col-1, #LayoutGrid17 > .row > .col-2
 {
@@ -3296,7 +3296,7 @@ body
    width: 100%;
 }
 }
-#wb_Card8
+#wb_KOL1622
 {
    position: relative;
    display: flex;
@@ -3308,13 +3308,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card8-card-body
+#KOL1622-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card8-card-item0
+#KOL1622-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -3324,7 +3324,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card8-card-item1
+#KOL1622-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -3335,7 +3335,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card8-card-item2
+#KOL1622-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -3346,7 +3346,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card8-card-item3
+#KOL1622-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -3357,7 +3357,7 @@ body
    font-style: normal;
    font-size: 21px;
 }
-#wb_Card9
+#wb_DIP1622
 {
    position: relative;
    display: flex;
@@ -3369,13 +3369,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card9-card-body
+#DIP1622-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card9-card-item0
+#DIP1622-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -3385,7 +3385,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card9-card-item1
+#DIP1622-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -3396,7 +3396,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card9-card-item2
+#DIP1622-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -3407,7 +3407,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card9-card-item3
+#DIP1622-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -3489,7 +3489,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 400px)
 {
 #LayoutGrid18 > .row > .col-1, #LayoutGrid18 > .row > .col-2
 {
@@ -3497,7 +3497,7 @@ body
    width: 100% !important;
 }
 }
-#wb_Card10
+#wb_EDM1622
 {
    position: relative;
    display: flex;
@@ -3509,13 +3509,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card10-card-body
+#EDM1622-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card10-card-item0
+#EDM1622-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -3525,7 +3525,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card10-card-item1
+#EDM1622-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -3536,7 +3536,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card10-card-item2
+#EDM1622-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -3547,7 +3547,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card10-card-item3
+#EDM1622-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -3558,7 +3558,7 @@ body
    font-style: normal;
    font-size: 21px;
 }
-#wb_Card11
+#wb_EMJ1622
 {
    position: relative;
    display: flex;
@@ -3570,13 +3570,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card11-card-body
+#EMJ1622-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card11-card-item0
+#EMJ1622-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -3586,7 +3586,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card11-card-item1
+#EMJ1622-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -3597,7 +3597,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card11-card-item2
+#EMJ1622-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -3608,7 +3608,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card11-card-item3
+#EMJ1622-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
