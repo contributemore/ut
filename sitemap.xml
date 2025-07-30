@@ -30,4 +30,16 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
+	<url>
+		<loc>https://www.ufstutors.co.za/</loc>
+		<lastmod>2025-07-30</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.ufstutors.co.za/images/preview.png</loc>
+		<lastmod>2025-07-30</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
 </urlset>
