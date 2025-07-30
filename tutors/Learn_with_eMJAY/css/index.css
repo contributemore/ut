@@ -57,23 +57,23 @@ body
 #Header1
 {
    box-sizing: border-box;
-   padding: 15px 15px 15px 15px;
+   padding: 15px 40px 15px 40px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
 }
 #Header1 > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -40px;
+   margin-left: -40px;
 }
 #Header1 > .row > .col-1, #Header1 > .row > .col-2
 {
    box-sizing: border-box;
    font-size: 0;
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 40px;
+   padding-left: 40px;
    position: relative;
 }
 #Header1 > .row > .col-1, #Header1 > .row > .col-2
@@ -86,7 +86,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 58.33333333%;
+   width: 66.66666667%;
    text-align: left;
 }
 #Header1 > .row > .col-2
@@ -95,7 +95,7 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 41.66666667%;
+   width: 33.33333333%;
    text-align: right;
 }
 #Header1:before,
@@ -524,7 +524,7 @@ body
 {
    color: #FFFFFF;
 }
-@media (min-width: 920px) 
+@media (min-width: 900px) 
 {
 .menu15Menu .navbar-right .dropdown-menu
 {
@@ -578,7 +578,7 @@ body
    border-bottom-color: #FFFFFF;
 }
 }
-@media (max-width: 920px) 
+@media (max-width: 900px) 
 {
 .menu15Menu 
 {
@@ -613,7 +613,7 @@ body
    line-height: 20px;
 }
 }
-@media (min-width: 920px) 
+@media (min-width: 900px) 
 {
 .menu15Menu 
 {
@@ -711,7 +711,7 @@ body
    background-image: none;
    border-radius: 0px;
    vertical-align: top;
-   margin: 0 0 0 40px;
+   margin: 0;
    padding: 4px 0 0 0;
    text-align: left;
 }
@@ -1087,7 +1087,7 @@ body
    vertical-align: top;
    margin: 50px 0 50px 0 ;
    padding: 0;
-   text-align: left;
+   text-align: center;
 }
 #testimonials4Heading
 {
@@ -1097,7 +1097,7 @@ body
    font-style: normal;
    font-size: 64px;
    margin: 0;
-   text-align: left;
+   text-align: center;
    text-transform: none;
 }
 #wb_LayoutGrid2
@@ -1526,9 +1526,12 @@ body
 {
    border-width: 0;
    filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.40));
-   display: inline-block;
-   width: 113px;
-   height: 113px;
+   display: block;
+   width: 69.33%;
+   height: auto;
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
    vertical-align: top;
 }
 #wb_Text3 
