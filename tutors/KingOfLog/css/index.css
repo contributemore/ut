@@ -924,27 +924,6 @@ body
 {
    text-align: center;
 }
-#wb_footer-text 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_footer-text
-{
-   color: #FFFFFF;
-   font-family: "Open Sans";
-   font-weight: normal;
-   font-size: 13px;
-}
-#wb_footer-text div
-{
-   text-align: center;
-}
 #PageFooter1
 {
    background-color: #000000;
@@ -1024,7 +1003,7 @@ body
    width: 100% !important;
 }
 }
-#wb_testimonials4LayoutGrid
+#wb_LayoutGrid1
 {
    clear: both;
    position: relative;
@@ -1039,7 +1018,7 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#testimonials4LayoutGrid
+#LayoutGrid1
 {
    box-sizing: border-box;
    display: flex;
@@ -1050,7 +1029,7 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#testimonials4LayoutGrid > .col-1
+#LayoutGrid1 > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -1059,11 +1038,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#testimonials4LayoutGrid > .col-1
+#LayoutGrid1 > .col-1
 {
    flex: 0 0 auto;
 }
-#testimonials4LayoutGrid > .col-1
+#LayoutGrid1 > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -1081,7 +1060,85 @@ body
 }
 @media (max-width: 480px)
 {
-#testimonials4LayoutGrid > .col-1
+#LayoutGrid1 > .col-1
+{
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 0px solid #DDDDDD;
+   border-radius: 0px;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid4
+{
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 > .col-1, #LayoutGrid4 > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 > .col-1, #LayoutGrid4 > .col-2
+{
+   flex: 0 0 auto;
+}
+#LayoutGrid4 > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid4 > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 66.66666667%;
+   max-width: 66.66666667%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid4 > .col-1, #LayoutGrid4 > .col-2
 {
    flex-basis: 100% !important;
    max-width: 100% !important;
@@ -1095,7 +1152,7 @@ body
    border-radius: 0px;
    box-sizing: border-box;
    vertical-align: top;
-   margin: 50px 0 50px 0 ;
+   margin: 20px 0 20px 0 ;
    padding: 0;
    text-align: center;
 }
@@ -1110,7 +1167,54 @@ body
    text-align: center;
    text-transform: none;
 }
-#wb_LayoutGrid2
+#wb_Image1
+{
+   margin: 25px 25px 25px 25px;
+   vertical-align: top;
+}
+#Image1
+{
+   border-width: 0;
+   filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.40));
+   display: block;
+   width: 75%;
+   height: auto;
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 40px 40px 40px 40px;
+   text-align: left;
+}
+#wb_Text4
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 21px;
+   line-height: 24.5px;
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   display: block;
+   margin: 40px 40px 40px 40px;
+   box-sizing: border-box;
+   width: calc(100% - 80px);
+}
+#wb_LayoutGrid5
 {
    clear: both;
    position: relative;
@@ -1125,7 +1229,7 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#LayoutGrid2
+#LayoutGrid5
 {
    box-sizing: border-box;
    display: flex;
@@ -1136,7 +1240,7 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#LayoutGrid2 > .col-1
+#LayoutGrid5 > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -1145,11 +1249,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid2 > .col-1
+#LayoutGrid5 > .col-1
 {
    flex: 0 0 auto;
 }
-#LayoutGrid2 > .col-1
+#LayoutGrid5 > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -1167,11 +1271,41 @@ body
 }
 @media (max-width: 768px)
 {
-#LayoutGrid2 > .col-1
+#LayoutGrid5 > .col-1
 {
    flex-basis: 100% !important;
    max-width: 100% !important;
 }
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text5
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 36px;
+}
+#wb_Text5 p, #wb_Text5 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
 }
 #wb_contact6LayoutGrid2
 {
@@ -1418,161 +1552,6 @@ body
 {
    color: inherit;
    text-decoration: none;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text2
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 32px;
-   line-height: 36px;
-}
-#wb_Text2 p, #wb_Text2 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text2
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_LayoutGrid1
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #DDDDDD;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid1
-{
-   box-sizing: border-box;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   padding: 0;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
-{
-   flex: 0 0 auto;
-}
-#LayoutGrid1 > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   flex-basis: 33.33333333%;
-   max-width: 33.33333333%;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   justify-content: center;
-   text-align: center;
-}
-#LayoutGrid1 > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   flex-basis: 66.66666667%;
-   max-width: 66.66666667%;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   align-self: stretch;
-   align-items: flex-start;
-   justify-content: center;
-   text-align: center;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
-{
-   flex-basis: 100% !important;
-   max-width: 100% !important;
-}
-}
-#wb_Image1
-{
-   margin: 25px 25px 25px 25px;
-   vertical-align: top;
-}
-#Image1
-{
-   border-width: 0;
-   filter: drop-shadow(0px 0px 12px rgba(0,0,0,0.40));
-   display: block;
-   width: 75%;
-   height: auto;
-   max-width: 400px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
-}
-#wb_Text3 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 40px 40px 40px 40px;
-   text-align: left;
-}
-#wb_Text3
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: 400;
-   font-size: 21px;
-   line-height: 24.5px;
-}
-#wb_Text3 p, #wb_Text3 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text3
-{
-   display: block;
-   margin: 40px 40px 40px 40px;
-   box-sizing: border-box;
-   width: calc(100% - 80px);
 }
 #PageFooter1
 {
