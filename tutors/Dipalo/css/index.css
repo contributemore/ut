@@ -728,6 +728,11 @@ body
    -webkit-text-stroke: 1px #FFFFFF;
    text-stroke: 1px #FFFFFF;
 }
+#menu15Logo1 a
+{
+   color: inherit;
+   text-decoration: none;
+}
 #wb_menu15Logo2
 {
    background-color: transparent;
@@ -750,6 +755,11 @@ body
    text-transform: none;
    -webkit-text-stroke: 0px #FFFFFF;
    text-stroke: 0px #FFFFFF;
+}
+#menu15Logo2 a
+{
+   color: inherit;
+   text-decoration: none;
 }
 #wb_HeaderSpace
 {
