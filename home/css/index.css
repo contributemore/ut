@@ -1627,7 +1627,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 800px)
+@media (max-width: 920px)
 {
 #trendingLayoutGrid2 > .row > .col-1, #trendingLayoutGrid2 > .row > .col-2
 {
@@ -3250,7 +3250,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 800px)
+@media (max-width: 920px)
 {
 #LayoutGrid16 > .row > .col-1, #LayoutGrid16 > .row > .col-2
 {
