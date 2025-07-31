@@ -1470,7 +1470,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 400px)
+@media (max-width: 460px)
 {
 #LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2
 {
@@ -2009,7 +2009,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 400px)
+@media (max-width: 460px)
 {
 #LayoutGrid12 > .row > .col-1, #LayoutGrid12 > .row > .col-2
 {
@@ -3330,7 +3330,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 400px)
+@media (max-width: 460px)
 {
 #LayoutGrid17 > .row > .col-1, #LayoutGrid17 > .row > .col-2
 {
@@ -3531,7 +3531,7 @@ body
 {
    clear: both;
 }
-@media (max-width: 400px)
+@media (max-width: 460px)
 {
 #LayoutGrid18 > .row > .col-1, #LayoutGrid18 > .row > .col-2
 {
