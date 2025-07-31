@@ -116,11 +116,6 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid1').offset().top-57 }, 600, 'easeOutSine');
    });
-   $("a[href*='#LayoutGrid4']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top }, 600, 'easeOutCubic');
-   });
    $("a[href*='#MATM1644header']").click(function(event)
    {
       event.preventDefault();
@@ -140,6 +135,11 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_TMATM1644').offset().top }, 600, 'easeOutCubic');
+   });
+   $("a[href*='#TACSF1623']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_TACSF1623').offset().top }, 600, 'easeOutCubic');
    });
    $("a[href*='#TMATM1622']").click(function(event)
    {
@@ -185,6 +185,31 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid8').offset().top }, 600, 'easeOutCubic');
+   });
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top }, 600, 'easeOutCubic');
+   });
+   $("a[href*='#LayoutGrid9']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid9').offset().top-57 }, 600, 'easeOutSine');
+   });
+   $("a[href*='#LayoutGrid13']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid13').offset().top-57 }, 600, 'easeOutSine');
+   });
+   $("a[href*='#LayoutGrid14']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid14').offset().top }, 600, 'easeOutCubic');
+   });
+   $("a[href*='#LayoutGrid20']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid20').offset().top }, 600, 'easeOutCubic');
    });
    $("a[href*='#Footer1']").click(function(event)
    {
@@ -290,7 +315,7 @@ $(window).on('load', function()
 </div>
 </div>
 </div>
-<div id="backToTop" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:93;">
+<div id="backToTop" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:103;">
 <div id="wb_backToTopIcon" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:10;">
 <a href="#HeaderSpacer1"><div id="backToTopIcon"><i class="fa fa-arrow-up"></i></div></a></div>
 </div>
@@ -352,7 +377,7 @@ $(window).on('load', function()
 <div id="STSM1624-card-item1">This module covers probability distributions, joint and conditional probabilities, expectations, variances, and independence.<br></div>
 </div>
 </div>
-<div id="wb_ACSF1623" style="display:none;width:100%;z-index:17;overflow:hidden" class="card module-card">
+<div id="wb_ACSF1623" style="display:flex;width:100%;z-index:17;overflow:hidden" class="card module-card">
 <div id="ACSF1623-card-body">
 <div id="ACSF1623-card-item0">ACSF1623 </div>
 <div id="ACSF1623-card-item1">This module covers actuarial financial reporting, focusing on core topics from CB1 course notes.</div>
@@ -385,7 +410,7 @@ $(window).on('load', function()
 <div id="LayoutGrid5">
 <div class="row">
 <div class="col-1">
-<hr id="HorizontalLine3" style="display:block;width: 100%;z-index:30;">
+<hr id="HorizontalLine3" style="display:block;width: 100%;z-index:27;">
 </div>
 </div>
 </div>
@@ -418,22 +443,22 @@ $(window).on('load', function()
 <div id="LayoutGrid4">
 <div class="row">
 <div class="col-1">
-<div id="wb_KOL1644" style="display:flex;width:100%;z-index:33;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/KingOfLog/';return false;">
+<div id="wb_KOL1644" style="display:flex;width:100%;z-index:30;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/KingOfLog/';return false;">
 <div id="KOL1644-card-body">
 <img id="KOL1644-card-item0" src="images/KOL.jpg" loading="lazy" width="640" height="640" alt="" title="">
 <div id="KOL1644-card-item1">King of Log</div>
 <div id="KOL1644-card-item2">I'm a 3rd Year that Demis for many modules.</div>
-<div id="KOL1644-card-item3">16h online: R250/month <br>1 on 1: R80/h</div>
+<div id="KOL1644-card-item3">16h: R250/month<br>R80/h</div>
 </div>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_DIP1644" style="display:flex;width:100%;z-index:34;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Dipalo/';return false;">
-<div id="DIP1644-card-body">
-<img id="DIP1644-card-item0" src="images/DIP.jpg" loading="lazy" width="640" height="641" alt="" title="">
-<div id="DIP1644-card-item1">Dipalo</div>
-<div id="DIP1644-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-<div id="DIP1644-card-item3">R100/h</div>
+<div id="wb_EDM1644" style="display:flex;width:100%;z-index:31;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Ed_Murphy/';return false;">
+<div id="EDM1644-card-body">
+<img id="EDM1644-card-item0" src="images/EDM.jpg" loading="lazy" width="640" height="640" alt="" title="">
+<div id="EDM1644-card-item1">Ed Murphy</div>
+<div id="EDM1644-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+<div id="EDM1644-card-item3">R100/h</div>
 </div>
 </div>
 </div>
@@ -446,17 +471,7 @@ $(window).on('load', function()
 <div id="LayoutGrid12">
 <div class="row">
 <div class="col-1">
-<div id="wb_EDM1644" style="display:flex;width:100%;z-index:36;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Ed_Murphy/';return false;">
-<div id="EDM1644-card-body">
-<img id="EDM1644-card-item0" src="images/EDM.jpg" loading="lazy" width="640" height="640" alt="" title="">
-<div id="EDM1644-card-item1">Ed Murphy</div>
-<div id="EDM1644-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-<div id="EDM1644-card-item3">R100/h</div>
-</div>
-</div>
-</div>
-<div class="col-2">
-<div id="wb_EMJ1644" style="display:flex;width:100%;z-index:37;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Learn_with_eMJAY/';return false;">
+<div id="wb_EMJ1644" style="display:flex;width:100%;z-index:33;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Learn_with_eMJAY/';return false;">
 <div id="EMJ1644-card-body">
 <img id="EMJ1644-card-item0" src="images/EMJ.jpg" loading="lazy" width="500" height="500" alt="" title="">
 <div id="EMJ1644-card-item1">Learn with eMJAY</div>
@@ -464,6 +479,8 @@ $(window).on('load', function()
 <div id="EMJ1644-card-item3">R100/h</div>
 </div>
 </div>
+</div>
+<div class="col-2">
 </div>
 </div>
 </div>
@@ -476,7 +493,78 @@ $(window).on('load', function()
 <div id="LayoutGrid8">
 <div class="row">
 <div class="col-1">
-<hr id="HorizontalLine7" style="display:block;width: 100%;z-index:39;">
+<hr id="HorizontalLine7" style="display:block;width: 100%;z-index:35;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_TACSF1623">
+<div id="TACSF1623">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text3">
+<span style="color:#000000;font-family:Arial;font-size:32px;"><strong>ACSF1623 Tutors</strong></span>
+</div>
+<div id="wb_Text7">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Best of the best</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:42;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Phanda_Buhlungu/';return false;">
+<div id="Card1-card-body">
+<img id="Card1-card-item0" src="images/PHA.jpg" loading="lazy" width="640" height="640" alt="" title="">
+<div id="Card1-card-item1">Phanda Buhlungu</div>
+<div id="Card1-card-item2">I'm a 3rd Year that Demis for many modules.</div>
+<div id="Card1-card-item3">12h: R200/month <br>R80/h</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_LayoutGrid19">
+<div id="LayoutGrid19">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid20">
+<div id="LayoutGrid20">
+<div class="row">
+<div class="col-1">
+<hr id="HorizontalLine2" style="display:block;width: 100%;z-index:45;">
 </div>
 </div>
 </div>
@@ -513,22 +601,22 @@ $(window).on('load', function()
 <div id="LayoutGrid17">
 <div class="row">
 <div class="col-1">
-<div id="wb_KOL1622" style="display:flex;width:100%;z-index:47;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/KingOfLog/';return false;">
+<div id="wb_KOL1622" style="display:flex;width:100%;z-index:51;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/KingOfLog/';return false;">
 <div id="KOL1622-card-body">
 <img id="KOL1622-card-item0" src="images/KOL.jpg" loading="lazy" width="640" height="640" alt="" title="">
 <div id="KOL1622-card-item1">King of Log</div>
 <div id="KOL1622-card-item2">I'm a 3rd Year that Demis for many modules.</div>
-<div id="KOL1622-card-item3">12h online: R200/month <br>1 on 1: R80/h</div>
+<div id="KOL1622-card-item3">12h: R200/month <br>R80/h</div>
 </div>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_DIP1622" style="display:flex;width:100%;z-index:48;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Dipalo/';return false;">
-<div id="DIP1622-card-body">
-<img id="DIP1622-card-item0" src="images/DIP.jpg" loading="lazy" width="640" height="641" alt="" title="">
-<div id="DIP1622-card-item1">Dipalo</div>
-<div id="DIP1622-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-<div id="DIP1622-card-item3">R100/h</div>
+<div id="wb_EDM1622" style="display:flex;width:100%;z-index:52;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Ed_Murphy/';return false;">
+<div id="EDM1622-card-body">
+<img id="EDM1622-card-item0" src="images/EDM.jpg" loading="lazy" width="640" height="640" alt="" title="">
+<div id="EDM1622-card-item1">Ed Murphy</div>
+<div id="EDM1622-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+<div id="EDM1622-card-item3">R100/h</div>
 </div>
 </div>
 </div>
@@ -541,17 +629,7 @@ $(window).on('load', function()
 <div id="LayoutGrid18">
 <div class="row">
 <div class="col-1">
-<div id="wb_EDM1622" style="display:flex;width:100%;z-index:50;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Ed_Murphy/';return false;">
-<div id="EDM1622-card-body">
-<img id="EDM1622-card-item0" src="images/EDM.jpg" loading="lazy" width="640" height="640" alt="" title="">
-<div id="EDM1622-card-item1">Ed Murphy</div>
-<div id="EDM1622-card-item2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-<div id="EDM1622-card-item3">R100/h</div>
-</div>
-</div>
-</div>
-<div class="col-2">
-<div id="wb_EMJ1622" style="display:flex;width:100%;z-index:51;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Learn_with_eMJAY/';return false;">
+<div id="wb_EMJ1622" style="display:flex;width:100%;z-index:54;overflow:hidden" class="card contact-card" onclick="window.location.href='./../tutors/Learn_with_eMJAY/';return false;">
 <div id="EMJ1622-card-body">
 <img id="EMJ1622-card-item0" src="images/EMJ.jpg" loading="lazy" width="500" height="500" alt="" title="">
 <div id="EMJ1622-card-item1">Learn with eMJAY</div>
@@ -559,6 +637,8 @@ $(window).on('load', function()
 <div id="EMJ1622-card-item3">R100/h</div>
 </div>
 </div>
+</div>
+<div class="col-2">
 </div>
 </div>
 </div>
@@ -571,7 +651,7 @@ $(window).on('load', function()
 <div id="LayoutGrid7">
 <div class="row">
 <div class="col-1">
-<hr id="HorizontalLine5" style="display:block;width: 100%;z-index:53;">
+<hr id="HorizontalLine5" style="display:block;width: 100%;z-index:56;">
 </div>
 </div>
 </div>
@@ -584,26 +664,26 @@ $(window).on('load', function()
 <div id="contactLayoutGrid">
 <div class="col-1">
 <div class="col-1-padding">
-<div id="wb_IconFont17" style="display:inline-block;width:46px;height:48px;text-align:center;z-index:57;">
+<div id="wb_IconFont17" style="display:inline-block;width:46px;height:48px;text-align:center;z-index:60;">
 <div id="IconFont17"><i class="fa fa-envelope"></i></div>
 </div>
-<div id="wb_Heading11" style="display:block;width:100%;z-index:58;">
+<div id="wb_Heading11" style="display:block;width:100%;z-index:61;">
 <h3 id="Heading11">E-mail</h3>
 </div>
-<div id="wb_Heading14" style="display:block;width:100%;z-index:59;">
+<div id="wb_Heading14" style="display:block;width:100%;z-index:62;">
 <h3 id="Heading14">info@ufstutors.co.za</h3>
 </div>
 </div>
 </div>
 <div class="col-2">
 <div class="col-2-padding">
-<div id="wb_contactHeading" style="display:block;width:100%;z-index:60;">
+<div id="wb_contactHeading" style="display:block;width:100%;z-index:63;">
 <h1 id="contactHeading">CONTACT US</h1>
 </div>
-<input type="text" id="contactName" style="display:block;width: 100%;height:36px;z-index:61;" name="name" value="" spellcheck="false" placeholder="Name">
-<input type="text" id="contactEmail" style="display:block;width: 100%;height:36px;z-index:62;" name="email" value="" spellcheck="false" placeholder="Email">
-<textarea name="message" id="contactMessage" style="display:block;width: 100%;;height:144px;z-index:63;" rows="8" cols="69" spellcheck="false" placeholder="How can we help?"></textarea>
-<input type="submit" id="contactButton" name="" value="Submit" style="display:inline-block;width:95px;height:36px;z-index:64;">
+<input type="text" id="contactName" style="display:block;width: 100%;height:36px;z-index:64;" name="name" value="" spellcheck="false" placeholder="Name">
+<input type="text" id="contactEmail" style="display:block;width: 100%;height:36px;z-index:65;" name="email" value="" spellcheck="false" placeholder="Email">
+<textarea name="message" id="contactMessage" style="display:block;width: 100%;;height:144px;z-index:66;" rows="8" cols="69" spellcheck="false" placeholder="How can we help?"></textarea>
+<input type="submit" id="contactButton" name="" value="Submit" style="display:inline-block;width:95px;height:36px;z-index:67;">
 </div>
 </div>
 </div>
@@ -621,10 +701,11 @@ $(window).on('load', function()
 <div id="wb_Text5">
 <span style="color:#000000;font-family:Arial;font-size:32px;"><strong>Supported Modules</strong></span>
 </div>
-<div id="wb_ListView1" style="display:block;width:100%;z-index:66;">
+<div id="wb_ListView1" style="display:block;width:100%;z-index:69;">
 <ul id="ListView1">
    <li class="first-child"><a href="" class="state-default btn" onclick="window.location.href='#TMATM1644';return false;">MATM1644</a></li>
-   <li class="last-child"><a href="" class="state-default btn" onclick="window.location.href='#TMATM1622';return false;">MATM1622</a></li>
+   <li class=""><a href="" class="state-default btn" onclick="window.location.href='#TMATM1622';return false;">MATM1622</a></li>
+   <li class="last-child"><a href="" class="state-default btn" onclick="window.location.href='#TACSF1623';return false;">ACSF1623</a></li>
 </ul>
 </div>
 </div>
@@ -657,7 +738,7 @@ $(window).on('load', function()
 <div id="contact6LayoutGrid2">
 <div class="row">
 <div class="col-1">
-<div id="wb_contact6Card2" style="display:inline-block;width:300px;height:280px;z-index:84;" class="card">
+<div id="wb_contact6Card2" style="display:inline-block;width:300px;height:280px;z-index:85;" class="card">
 <div id="contact6Card2-card-body">
 <div id="contact6Card2-card-item0"><i class="fa fa-whatsapp"></i></div>
 <div id="contact6Card2-card-item1">WhatsApp</div>
@@ -667,7 +748,7 @@ $(window).on('load', function()
 </div>
 </div>
 <div class="col-2">
-<div id="wb_contact6Card1" style="display:inline-block;width:260px;height:276px;z-index:85;" class="card">
+<div id="wb_contact6Card1" style="display:inline-block;width:260px;height:276px;z-index:86;" class="card">
 <div id="contact6Card1-card-body">
 <div id="contact6Card1-card-item0"><a href="mailto:info@ufstutors.co.za?subject=Hire%20Tutor&body=Hi!%0AI'd%20like%20to%20hire%20King%20of%20Log%0Afor%20Monday%20at%2023%3A00%20to%2024%3A00%0A%0AMy%20number%20is%3A%200123456789"><i class="fa fa-envelope-o"></i></a></div>
 <div id="contact6Card1-card-item1">Email</div>
@@ -682,6 +763,8 @@ $(window).on('load', function()
 </div>
 </div>
 </div>
+<div id="wb_Image1" style="position:absolute;left:1503px;top:2115px;width:1598px;height:2133px;z-index:117;">
+<img src="images/dgsjc5hrru.jpg" id="Image1" alt="" width="1598" height="2133"></div>
 <div id="wb_Footer1">
 <div id="Footer1">
 <div class="col-1">
