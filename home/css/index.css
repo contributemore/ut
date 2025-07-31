@@ -2429,18 +2429,18 @@ body
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 19px;
+   font-size: 24px;
 }
 #KOL1644-card-item2
 {
    box-sizing: border-box;
-   margin: 20px 20px 20px 20px;
+   margin: 10px 0 20px 0 ;
    padding: 0;
-   color: #292B2C;
+   color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-style: normal;
-   font-size: 13px;
+   font-size: 16px;
 }
 #KOL1644-card-item3
 {
