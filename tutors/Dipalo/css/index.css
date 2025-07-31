@@ -710,7 +710,7 @@ body
    background-image: none;
    border-radius: 0px;
    vertical-align: top;
-   margin: 0;
+   margin: 0 0 0 5px;
    padding: 4px 0 0 0;
    text-align: left;
 }
