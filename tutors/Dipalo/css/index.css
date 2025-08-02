@@ -1167,7 +1167,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #Footer:before,
 #Footer:after,
@@ -1307,7 +1307,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid3:before,
 #LayoutGrid3:after,
@@ -1896,7 +1896,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #Footer:before,
 #Footer:after,

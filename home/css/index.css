@@ -1167,7 +1167,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #Footer:before,
 #Footer:after,
@@ -1307,7 +1307,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #LayoutGrid3:before,
 #LayoutGrid3:after,
@@ -4508,7 +4508,7 @@ body
    vertical-align: baseline;
    white-space: nowrap;
 }
-#wb_LayoutGrid4
+#wb_LayoutGrid38
 {
    clear: both;
    position: relative;
@@ -4523,7 +4523,7 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#LayoutGrid4
+#LayoutGrid38
 {
    box-sizing: border-box;
    padding: 0 20px 0 20px;
@@ -4531,12 +4531,12 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#LayoutGrid4 > .row
+#LayoutGrid38 > .row
 {
    margin-right: -20px;
    margin-left: -20px;
 }
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2
+#LayoutGrid38 > .row > .col-1, #LayoutGrid38 > .row > .col-2
 {
    box-sizing: border-box;
    font-size: 0;
@@ -4545,11 +4545,11 @@ body
    padding-left: 20px;
    position: relative;
 }
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2
+#LayoutGrid38 > .row > .col-1, #LayoutGrid38 > .row > .col-2
 {
    float: left;
 }
-#LayoutGrid4 > .row > .col-1
+#LayoutGrid38 > .row > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -4558,7 +4558,7 @@ body
    width: 50%;
    text-align: center;
 }
-#LayoutGrid4 > .row > .col-2
+#LayoutGrid38 > .row > .col-2
 {
    background-color: transparent;
    background-image: none;
@@ -4567,22 +4567,22 @@ body
    width: 50%;
    text-align: left;
 }
-#LayoutGrid4:before,
-#LayoutGrid4:after,
-#LayoutGrid4 .row:before,
-#LayoutGrid4 .row:after
+#LayoutGrid38:before,
+#LayoutGrid38:after,
+#LayoutGrid38 .row:before,
+#LayoutGrid38 .row:after
 {
    display: table;
    content: " ";
 }
-#LayoutGrid4:after,
-#LayoutGrid4 .row:after
+#LayoutGrid38:after,
+#LayoutGrid38 .row:after
 {
    clear: both;
 }
 @media (max-width: 460px)
 {
-#LayoutGrid4 > .row > .col-1, #LayoutGrid4 > .row > .col-2
+#LayoutGrid38 > .row > .col-1, #LayoutGrid38 > .row > .col-2
 {
    float: none;
    width: 100%;
@@ -6540,7 +6540,7 @@ body
    width: 100%;
 }
 }
-#wb_Card2
+#wb_Card6
 {
    position: relative;
    display: flex;
@@ -6552,13 +6552,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card2-card-body
+#Card6-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card2-card-item0
+#Card6-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -6568,7 +6568,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card2-card-item1
+#Card6-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -6579,7 +6579,7 @@ body
    font-style: normal;
    font-size: 19px;
 }
-#Card2-card-item2
+#Card6-card-item2
 {
    box-sizing: border-box;
    margin: 20px 20px 20px 20px;
@@ -6590,7 +6590,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card2-card-item3
+#Card6-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -6949,7 +6949,7 @@ body
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    width: 100%;
-   text-align: left;
+   text-align: center;
 }
 #Footer:before,
 #Footer:after,
