@@ -6571,63 +6571,6 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#wb_Card3
-{
-   margin: 0 0 50px 0 ;
-   max-width: 320px;
-   margin-left: auto !important;
-   margin-right: auto !important;
-   text-align: center;
-}
-#Card3-card-body
-{
-   padding: 0;
-   font-size: 0;
-}
-#Card3-card-item0
-{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   width: 100%;
-   height: auto;
-}
-#Card3-card-item1
-{
-   box-sizing: border-box;
-   margin: 20px 20px 0 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 19px;
-   text-align: center;
-}
-#Card3-card-item2
-{
-   box-sizing: border-box;
-   margin: 20px 20px 20px 20px;
-   padding: 0;
-   color: #292B2C;
-   font-family: Arial;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 13px;
-}
-#Card3-card-item3
-{
-   box-sizing: border-box;
-   margin: 0 20px 20px 20px;
-   padding: 0;
-   color: #000000;
-   font-family: Arial;
-   font-weight: bold;
-   font-style: normal;
-   font-size: 21px;
-}
 #wb_Footer
 {
    clear: both;
