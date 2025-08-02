@@ -925,7 +925,7 @@ body
 }
 #wb_Text2 
 {
-   background-color: transparent;
+   background-color: #EAEAEA;
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
@@ -1368,7 +1368,7 @@ body
    width: 100% !important;
 }
 }
-#wb_LayoutGrid1
+#wb_LayoutGrid4
 {
    clear: both;
    position: relative;
@@ -1383,7 +1383,7 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#LayoutGrid1
+#LayoutGrid4
 {
    box-sizing: border-box;
    display: flex;
@@ -1394,7 +1394,7 @@ body
    margin-left: auto;
    max-width: 1140px;
 }
-#LayoutGrid1 > .col-1
+#LayoutGrid4 > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -1403,11 +1403,11 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid1 > .col-1
+#LayoutGrid4 > .col-1
 {
    flex: 0 0 auto;
 }
-#LayoutGrid1 > .col-1
+#LayoutGrid4 > .col-1
 {
    background-color: transparent;
    background-image: none;
@@ -1425,7 +1425,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid1 > .col-1
+#LayoutGrid4 > .col-1
 {
    flex-basis: 100% !important;
    max-width: 100% !important;
