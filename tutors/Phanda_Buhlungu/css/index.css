@@ -929,7 +929,7 @@ body
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 0;
+   padding: 0 0 20px 0;
    margin: 0;
    text-align: center;
 }
@@ -961,7 +961,7 @@ body
    box-sizing: border-box;
    margin: 0;
    vertical-align: top;
-   background-color: rgba(250,250,250,0.00);
+   background-color: transparent;
    background-image: none;
    border: 0px solid #DEE2E6;
    border-radius: 0px;
@@ -1039,7 +1039,7 @@ body
    box-sizing: border-box;
    margin: 0;
    vertical-align: top;
-   background-color: rgba(250,250,250,0.00);
+   background-color: transparent;
    background-image: none;
    border: 0px solid #DEE2E6;
    border-radius: 0px;
@@ -1338,7 +1338,7 @@ body
    display: table;
    text-align: center;
    width: 100%;
-   background-color: rgba(255,255,255,0.00);
+   background-color: transparent;
    background-image: none;
    border: 0px solid #DDDDDD;
    border-radius: 0px;
