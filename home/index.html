@@ -86,10 +86,10 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_HSP').offset().top }, 600, 'easeOutCubic');
    });
-   $("a[href*='#Welcome1']").click(function(event)
+   $("a[href*='#Welcome']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_Welcome1').offset().top }, 600, 'easeOutCirc');
+      $('html, body').stop().animate({ scrollTop: $('#wb_Welcome').offset().top }, 600, 'easeOutCirc');
    });
    $("a[href*='#LayoutGrid36']").click(function(event)
    {
@@ -395,8 +395,8 @@ $(window).on('load', function()
 </div>
 </div>
 
-<div id="wb_Welcome1">
-<div id="Welcome1">
+<div id="wb_Welcome">
+<div id="Welcome">
 <div class="row">
 <div class="col-1">
 <div id="wb_logoHeading">
@@ -417,7 +417,7 @@ $(window).on('load', function()
 </div>
 <div id="backToTop">
 <div id="wb_backToTopIcon">
-<a href="#Welcome1"><div id="backToTopIcon"><i class="fa fa-arrow-up"></i></div></a></div>
+<a href="#" onclick="window.location.href='#Welcome';return false;"><div id="backToTopIcon"><i class="fa fa-arrow-up"></i></div></a></div>
 </div>
 <div id="wb_LayoutGrid36">
 <div id="LayoutGrid36">
