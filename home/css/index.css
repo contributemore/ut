@@ -1172,7 +1172,7 @@ body
    margin-right: auto;
    margin-left: auto;
 }
-#LayoutGrid1 > .col-1
+#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
 {
    box-sizing: border-box;
    font-size: 0;
@@ -1181,7 +1181,7 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid1 > .col-1
+#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
 {
    flex: 0 0 auto;
 }
@@ -1191,8 +1191,24 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   flex-basis: 100%;
-   max-width: 100%;
+   flex-basis: 50%;
+   max-width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   justify-content: center;
+   text-align: center;
+}
+#LayoutGrid1 > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 50%;
+   max-width: 50%;
    display: flex;
    flex-wrap: wrap;
    align-content: flex-start;
@@ -1203,7 +1219,7 @@ body
 }
 @media (max-width: 480px)
 {
-#LayoutGrid1 > .col-1
+#LayoutGrid1 > .col-1, #LayoutGrid1 > .col-2
 {
    flex-basis: 100% !important;
    max-width: 100% !important;
@@ -1271,6 +1287,11 @@ body
    font-style: normal;
    font-size: 48px;
 }
+#Card2-card-item1 a
+{
+   color: inherit;
+   text-decoration: none;
+}
 #Card2-card-item2
 {
    box-sizing: border-box;
@@ -1281,6 +1302,11 @@ body
    font-weight: normal;
    font-style: normal;
    font-size: 20px;
+}
+#Card2-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
 }
 #Card2-card-item3
 {
@@ -1294,6 +1320,105 @@ body
    font-size: 20px;
 }
 #Card2-card-item3 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#wb_Card1
+{
+   position: relative;
+   display: inline-block;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0;
+   vertical-align: top;
+   background-color: #EAEAEA;
+   background-image: none;
+   border: 0px solid #DEE2E6;
+   border-radius: 0px;
+   text-align: center;
+}
+#Card1-card-body
+{
+   padding: 20px 20px 20px 20px;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card1-card-item0
+{
+   display: inline-block;
+   height: 64px;
+   box-sizing: border-box;
+   margin: 0 0 30px 0 ;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   color: #1778F2;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 64px;
+}
+#Card1-card-item0 a
+{
+   color: inherit;
+   display: block;
+   padding: 0;
+   text-decoration: none;
+}
+#Card1-card-item0 i
+{
+   margin-right: 0px;
+   text-align: center;
+   vertical-align: top;
+   font-size: 64px;
+   width: 64px;
+}
+#Card1-card-item1
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: #212529;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 48px;
+}
+#Card1-card-item1 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Card1-card-item2
+{
+   box-sizing: border-box;
+   margin: 10px 0 0 0 ;
+   padding: 0;
+   color: #212529;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 20px;
+}
+#Card1-card-item2 a
+{
+   color: inherit;
+   text-decoration: none;
+}
+#Card1-card-item3
+{
+   box-sizing: border-box;
+   margin: 10px 0 0 0 ;
+   padding: 0;
+   color: #1778F2;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 20px;
+}
+#Card1-card-item3 a
 {
    color: inherit;
    text-decoration: none;
@@ -4839,7 +4964,7 @@ body
    width: 100%;
 }
 }
-#wb_Card1
+#wb_Card12
 {
    position: relative;
    display: flex;
@@ -4851,13 +4976,13 @@ body
    margin-right: auto !important;
    text-align: center;
 }
-#Card1-card-body
+#Card12-card-body
 {
    padding: 0;
    flex: 1 1 auto;
    font-size: 0;
 }
-#Card1-card-item0
+#Card12-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -4867,7 +4992,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card1-card-item1
+#Card12-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -4879,7 +5004,7 @@ body
    font-size: 24px;
    text-align: center;
 }
-#Card1-card-item2
+#Card12-card-item2
 {
    box-sizing: border-box;
    margin: 10px 20px 20px 20px;
@@ -4890,7 +5015,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card1-card-item3
+#Card12-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -8111,142 +8236,142 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 89;
+   z-index: 91;
 }
 #wb_Card6
 {
    display: none;
    width: 100%;
-   z-index: 64;
+   z-index: 66;
    overflow: hidden;
+}
+#wb_Card1
+{
+   display: inline-block;
+   width: 308px;
+   height: 331px;
+   z-index: 197;
 }
 #contactEmail
 {
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 107;
+   z-index: 109;
 }
 #wb_KOL1622
 {
    display: flex;
    width: 100%;
-   z-index: 84;
+   z-index: 86;
    overflow: hidden;
 }
 #HorizontalLine2
 {
    display: block;
    width: 100%;
-   z-index: 78;
-}
-#wb_Card1
-{
-   display: flex;
-   width: 100%;
-   z-index: 74;
-   overflow: hidden;
+   z-index: 80;
 }
 #contactButton
 {
    display: inline-block;
    width: 95px;
    height: 36px;
-   z-index: 109;
+   z-index: 111;
 }
 #HorizontalLine3
 {
    display: block;
    width: 100%;
-   z-index: 37;
+   z-index: 39;
 }
 #wb_Card3
 {
    display: flex;
    width: 100%;
-   z-index: 54;
+   z-index: 56;
    overflow: hidden;
 }
 #wb_MATA2664
 {
    display: flex;
    width: 100%;
-   z-index: 22;
+   z-index: 24;
    overflow: hidden;
 }
 #wb_ACSF1623
 {
    display: flex;
    width: 100%;
-   z-index: 21;
+   z-index: 23;
    overflow: hidden;
 }
 #wb_Card2
 {
    display: inline-block;
-   width: 260px;
+   width: 304px;
    height: 299px;
-   z-index: 195;
+   z-index: 198;
 }
 #HorizontalLine10
 {
    display: block;
    width: 100%;
-   z-index: 124;
+   z-index: 126;
 }
 #contactMessage
 {
    display: block;
    width: 100%;
    height: 144px;
-   z-index: 108;
+   z-index: 110;
 }
 #wb_AI_Deep_Learning
 {
    display: flex;
    width: 100%;
-   z-index: 26;
+   z-index: 28;
    overflow: hidden;
 }
 #HorizontalLine1
 {
    display: block;
    width: 100%;
-   z-index: 16;
+   z-index: 18;
 }
 #wb_MATM1644
 {
    display: flex;
    width: 100%;
-   z-index: 20;
+   z-index: 22;
    overflow: hidden;
 }
 #wb_EMJ1622
 {
    display: none;
    width: 100%;
-   z-index: 85;
+   z-index: 87;
    overflow: hidden;
 }
 #wb_Card10
 {
    display: flex;
    width: 100%;
-   z-index: 65;
+   z-index: 67;
    overflow: hidden;
 }
 #wb_STSM1624
 {
    display: flex;
    width: 100%;
-   z-index: 27;
+   z-index: 29;
    overflow: hidden;
 }
 #wb_MATM1622
 {
    display: flex;
    width: 100%;
-   z-index: 23;
+   z-index: 25;
    overflow: hidden;
 }
 #wb_IconFont17
@@ -8255,40 +8380,47 @@ body
    width: 46px;
    height: 48px;
    text-align: center;
-   z-index: 102;
+   z-index: 104;
 }
 #wb_Card11
 {
    display: flex;
    width: 100%;
-   z-index: 86;
+   z-index: 88;
+   overflow: hidden;
+}
+#wb_Card12
+{
+   display: flex;
+   width: 100%;
+   z-index: 76;
    overflow: hidden;
 }
 #wb_Card9
 {
    display: flex;
    width: 100%;
-   z-index: 44;
+   z-index: 46;
    overflow: hidden;
 }
 #wb_logoHeading
 {
    display: block;
    width: 100%;
-   z-index: 11;
+   z-index: 13;
 }
 #wb_Card13
 {
    display: flex;
    width: 100%;
-   z-index: 121;
+   z-index: 123;
    overflow: hidden;
 }
 #wb_Card8
 {
    display: flex;
    width: 100%;
-   z-index: 75;
+   z-index: 77;
    overflow: hidden;
 }
 #noResults
@@ -8311,26 +8443,26 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 68;
+   z-index: 70;
 }
 #HorizontalLine9
 {
    display: block;
    width: 100%;
-   z-index: 57;
+   z-index: 59;
 }
 #wb_EMJ1644
 {
    display: flex;
    width: 100%;
-   z-index: 43;
+   z-index: 45;
    overflow: hidden;
 }
 #wb_KOL1644
 {
    display: flex;
    width: 100%;
-   z-index: 40;
+   z-index: 42;
    overflow: hidden;
 }
 #wb_menu15Logo2
@@ -8351,25 +8483,25 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 105;
+   z-index: 107;
 }
 #wb_Heading14
 {
    display: block;
    width: 100%;
-   z-index: 104;
+   z-index: 106;
 }
 #wb_Heading11
 {
    display: block;
    width: 100%;
-   z-index: 103;
+   z-index: 105;
 }
 #wb_MATM1534
 {
    display: flex;
    width: 100%;
-   z-index: 24;
+   z-index: 26;
    overflow: hidden;
 }
 #wb_logoIcon
@@ -8378,26 +8510,26 @@ body
    width: 32px;
    height: 32px;
    text-align: center;
-   z-index: 13;
+   z-index: 15;
 }
 #HorizontalLine6
 {
    display: block;
    width: 100%;
-   z-index: 115;
+   z-index: 117;
 }
 #wb_Card5
 {
    display: flex;
    width: 100%;
-   z-index: 112;
+   z-index: 114;
    overflow: hidden;
 }
 #wb_EDM1644
 {
    display: flex;
    width: 100%;
-   z-index: 41;
+   z-index: 43;
    overflow: hidden;
 }
 #contactName
@@ -8405,20 +8537,20 @@ body
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 106;
+   z-index: 108;
 }
 #wb_Card4
 {
    display: flex;
    width: 100%;
-   z-index: 95;
+   z-index: 97;
    overflow: hidden;
 }
 #HorizontalLine7
 {
    display: block;
    width: 100%;
-   z-index: 46;
+   z-index: 48;
 }
 #backToTop
 {
@@ -8430,32 +8562,32 @@ body
    bottom: 25px;
    width: 50px;
    height: 50px;
-   z-index: 203;
+   z-index: 206;
 }
 #wb_ListView1
 {
    display: block;
    width: 100%;
-   z-index: 129;
+   z-index: 131;
 }
 #HorizontalLine4
 {
    display: block;
    width: 100%;
-   z-index: 98;
+   z-index: 100;
 }
 #wb_Card7
 {
    display: flex;
    width: 100%;
-   z-index: 63;
+   z-index: 65;
    overflow: hidden;
 }
 #wb_MATR1544
 {
    display: flex;
    width: 100%;
-   z-index: 25;
+   z-index: 27;
    overflow: hidden;
 }
 #wb_backToTopIcon
@@ -8466,7 +8598,7 @@ body
    width: 24px;
    height: 24px;
    text-align: center;
-   z-index: 15;
+   z-index: 17;
 }
 @media only screen and (min-width: 1920px)
 {
@@ -8479,8 +8611,8 @@ body
 {
    left: 0px;
    top: 0px;
-   width: 1920px;
-   height: 7191px;
+   width: 1025px;
+   height: 1639px;
    visibility: visible;
    display: inline;
 }
@@ -10246,14 +10378,14 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#wb_Card1
+#wb_Card12
 {
    width: 100%;
    visibility: visible;
    display: flex;
    margin: 0 0 50px 0 ;
 }
-#Card1-card-item0
+#Card12-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -10263,7 +10395,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card1-card-item1
+#Card12-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -10275,7 +10407,7 @@ body
    font-size: 24px;
    text-align: center;
 }
-#Card1-card-item2
+#Card12-card-item2
 {
    box-sizing: border-box;
    margin: 10px 20px 20px 20px;
@@ -10286,7 +10418,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card1-card-item3
+#Card12-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -10297,7 +10429,7 @@ body
    font-style: normal;
    font-size: 21px;
 }
-#wb_Card1
+#wb_Card12
 {
    text-align: center;
 }
@@ -12062,8 +12194,8 @@ body
 {
    left: 0px;
    top: 0px;
-   width: 320px;
-   height: 7191px;
+   width: 1025px;
+   height: 1639px;
    visibility: visible;
    display: inline;
 }
@@ -13829,14 +13961,14 @@ body
    border-radius: 0px;
    text-align: center;
 }
-#wb_Card1
+#wb_Card12
 {
    width: 100%;
    visibility: visible;
    display: flex;
    margin: 0 0 50px 0 ;
 }
-#Card1-card-item0
+#Card12-card-item0
 {
    box-sizing: border-box;
    margin: 0;
@@ -13846,7 +13978,7 @@ body
    width: 100%;
    height: auto;
 }
-#Card1-card-item1
+#Card12-card-item1
 {
    box-sizing: border-box;
    margin: 20px 20px 0 20px;
@@ -13858,7 +13990,7 @@ body
    font-size: 24px;
    text-align: center;
 }
-#Card1-card-item2
+#Card12-card-item2
 {
    box-sizing: border-box;
    margin: 10px 20px 20px 20px;
@@ -13869,7 +14001,7 @@ body
    font-style: normal;
    font-size: 13px;
 }
-#Card1-card-item3
+#Card12-card-item3
 {
    box-sizing: border-box;
    margin: 0 20px 20px 20px;
@@ -13880,7 +14012,7 @@ body
    font-style: normal;
    font-size: 21px;
 }
-#wb_Card1
+#wb_Card12
 {
    text-align: center;
 }
