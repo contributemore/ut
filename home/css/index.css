@@ -9031,6 +9031,68 @@ body
    font-style: normal;
    font-size: 21px;
 }
+#wb_Card19
+{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin: 0 0 50px 0 ;
+   max-width: 320px;
+   margin-left: auto !important;
+   margin-right: auto !important;
+   text-align: center;
+}
+#Card19-card-body
+{
+   padding: 0;
+   flex: 1 1 auto;
+   font-size: 0;
+}
+#Card19-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Card19-card-item1
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0 20px;
+   padding: 0;
+   color: #292B2C;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   text-align: center;
+}
+#Card19-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 20px 20px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Card19-card-item3
+{
+   box-sizing: border-box;
+   margin: 0 20px 20px 20px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 21px;
+}
 #wb_Footer
 {
    clear: both;
@@ -9093,6 +9155,13 @@ body
    max-width: 100% !important;
 }
 }
+#wb_Card19
+{
+   display: flex;
+   width: 100%;
+   z-index: 139;
+   overflow: hidden;
+}
 #HorizontalLine5
 {
    display: block;
@@ -9111,7 +9180,7 @@ body
    display: inline-block;
    width: 308px;
    height: 331px;
-   z-index: 226;
+   z-index: 229;
 }
 #contactEmail
 {
@@ -9186,13 +9255,13 @@ body
    display: inline-block;
    width: 304px;
    height: 299px;
-   z-index: 227;
+   z-index: 230;
 }
 #HorizontalLine10
 {
    display: block;
    width: 100%;
-   z-index: 140;
+   z-index: 141;
 }
 #contactMessage
 {
@@ -9464,13 +9533,13 @@ body
    bottom: 25px;
    width: 50px;
    height: 50px;
-   z-index: 235;
+   z-index: 238;
 }
 #wb_ListView1
 {
    display: block;
    width: 100%;
-   z-index: 145;
+   z-index: 146;
 }
 #wb_Card18
 {
@@ -13629,6 +13698,61 @@ body
 {
    text-align: center;
 }
+#wb_Card19
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0 0 50px 0 ;
+}
+#Card19-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Card19-card-item1
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0 20px;
+   padding: 0;
+   color: #292B2C;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   text-align: center;
+}
+#Card19-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 20px 20px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Card19-card-item3
+{
+   box-sizing: border-box;
+   margin: 0 20px 20px 20px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 21px;
+}
+#wb_Card19
+{
+   text-align: center;
+}
 }
 @media only screen and (max-width: 1919px) and (orientation: portrait)
 {
@@ -17747,6 +17871,61 @@ body
    font-size: 21px;
 }
 #wb_Card18
+{
+   text-align: center;
+}
+#wb_Card19
+{
+   width: 100%;
+   visibility: visible;
+   display: flex;
+   margin: 0 0 50px 0 ;
+}
+#Card19-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   width: 100%;
+   height: auto;
+}
+#Card19-card-item1
+{
+   box-sizing: border-box;
+   margin: 20px 20px 0 20px;
+   padding: 0;
+   color: #292B2C;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   text-align: center;
+}
+#Card19-card-item2
+{
+   box-sizing: border-box;
+   margin: 20px 20px 20px 20px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+}
+#Card19-card-item3
+{
+   box-sizing: border-box;
+   margin: 0 20px 20px 20px;
+   padding: 0;
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 21px;
+}
+#wb_Card19
 {
    text-align: center;
 }
