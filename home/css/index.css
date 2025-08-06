@@ -2109,8 +2109,8 @@ body
 {
    display: inline-block;
    margin: 0;
-   width: 267px;
-   height: 42px;
+   width: 293px;
+   height: 24px;
 }
 #wb_logoIcon
 {
@@ -10383,8 +10383,8 @@ body
 #wb_Card1
 {
    display: inline-block;
-   width: 308px;
-   height: 331px;
+   width: 237px;
+   height: 354px;
    z-index: 262;
 }
 #contactEmail
@@ -10458,7 +10458,7 @@ body
 #wb_Card2
 {
    display: inline-block;
-   width: 304px;
+   width: 237px;
    height: 299px;
    z-index: 263;
 }
