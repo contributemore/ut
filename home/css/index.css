@@ -2114,39 +2114,6 @@ body
    width: 100% !important;
 }
 }
-#wb_logoIcon
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #F44336;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#logoIcon
-{
-   height: 32px;
-   width: 32px;
-   display: flex;
-   flex-wrap: nowrap;
-   justify-content: center;
-}
-#logoIcon i
-{
-   color: #000000;
-   display: inline-block;
-   font-size: 32px;
-   line-height: 32px;
-   vertical-align: middle;
-}
-#wb_logoIcon:hover #logoIcon i
-{
-   color: #A9A9A9;
-}
 #wb_trendingText2 
 {
    background-color: transparent;
@@ -12370,20 +12337,20 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 119;
+   z-index: 118;
 }
 #wb_Card19
 {
    display: flex;
    width: 100%;
-   z-index: 96;
+   z-index: 95;
    overflow: hidden;
 }
 #wb_Card6
 {
    display: none;
    width: 100%;
-   z-index: 82;
+   z-index: 81;
    overflow: hidden;
 }
 #wb_Card1
@@ -12391,33 +12358,33 @@ body
    display: inline-block;
    width: 302px;
    height: 354px;
-   z-index: 319;
+   z-index: 318;
 }
 #contactEmail
 {
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 128;
+   z-index: 127;
 }
 #wb_KOL1622
 {
    display: flex;
    width: 100%;
-   z-index: 114;
+   z-index: 113;
    overflow: hidden;
 }
 #HorizontalLine2
 {
    display: block;
    width: 100%;
-   z-index: 108;
+   z-index: 107;
 }
 #wb_EMAC2724
 {
    display: flex;
    width: 100%;
-   z-index: 29;
+   z-index: 28;
    overflow: hidden;
 }
 #wb_social6Heading
@@ -12431,47 +12398,47 @@ body
    display: inline-block;
    width: 95px;
    height: 36px;
-   z-index: 130;
+   z-index: 129;
 }
 #HorizontalLine3
 {
    display: block;
    width: 100%;
-   z-index: 44;
+   z-index: 43;
 }
 #wb_ACSF2716
 {
    display: flex;
    width: 100%;
-   z-index: 31;
+   z-index: 30;
    overflow: hidden;
 }
 #wb_Card3
 {
    display: flex;
    width: 100%;
-   z-index: 72;
+   z-index: 71;
    overflow: hidden;
 }
 #wb_Card14
 {
    display: flex;
    width: 100%;
-   z-index: 61;
+   z-index: 60;
    overflow: hidden;
 }
 #wb_MATA2664
 {
    display: flex;
    width: 100%;
-   z-index: 23;
+   z-index: 22;
    overflow: hidden;
 }
 #wb_ACSF1623
 {
    display: flex;
    width: 100%;
-   z-index: 22;
+   z-index: 21;
    overflow: hidden;
 }
 #wb_Card2
@@ -12479,131 +12446,131 @@ body
    display: inline-block;
    width: 289px;
    height: 299px;
-   z-index: 320;
+   z-index: 319;
 }
 #HorizontalLine15
 {
    display: block;
    width: 100%;
-   z-index: 191;
+   z-index: 190;
 }
 #HorizontalLine14
 {
    display: block;
    width: 100%;
-   z-index: 182;
+   z-index: 181;
 }
 #HorizontalLine16
 {
    display: block;
    width: 100%;
-   z-index: 173;
+   z-index: 172;
 }
 #HorizontalLine13
 {
    display: block;
    width: 100%;
-   z-index: 164;
+   z-index: 163;
 }
 #HorizontalLine12
 {
    display: block;
    width: 100%;
-   z-index: 146;
+   z-index: 145;
 }
 #contactMessage
 {
    display: block;
    width: 100%;
    height: 144px;
-   z-index: 129;
+   z-index: 128;
 }
 #HorizontalLine10
 {
    display: block;
    width: 100%;
-   z-index: 98;
+   z-index: 97;
 }
 #HorizontalLine11
 {
    display: block;
    width: 100%;
-   z-index: 66;
+   z-index: 65;
 }
 #wb_Card15
 {
    display: flex;
    width: 100%;
-   z-index: 62;
+   z-index: 61;
    overflow: hidden;
 }
 #wb_AI_Deep_Learning
 {
    display: flex;
    width: 100%;
-   z-index: 27;
+   z-index: 26;
    overflow: hidden;
 }
 #HorizontalLine1
 {
    display: block;
    width: 100%;
-   z-index: 17;
+   z-index: 16;
 }
 #wb_Card16
 {
    display: flex;
    width: 100%;
-   z-index: 85;
+   z-index: 84;
    overflow: hidden;
 }
 #wb_MATM1644
 {
    display: flex;
    width: 100%;
-   z-index: 21;
+   z-index: 20;
    overflow: hidden;
 }
 #wb_Card17
 {
    display: flex;
    width: 100%;
-   z-index: 134;
+   z-index: 133;
    overflow: hidden;
 }
 #wb_EMJ1622
 {
    display: none;
    width: 100%;
-   z-index: 115;
+   z-index: 114;
    overflow: hidden;
 }
 #wb_Card10
 {
    display: flex;
    width: 100%;
-   z-index: 83;
+   z-index: 82;
    overflow: hidden;
 }
 #wb_STSM1624
 {
    display: flex;
    width: 100%;
-   z-index: 28;
+   z-index: 27;
    overflow: hidden;
 }
 #wb_MATM1622
 {
    display: flex;
    width: 100%;
-   z-index: 24;
+   z-index: 23;
    overflow: hidden;
 }
 #wb_Card24
 {
    display: flex;
    width: 100%;
-   z-index: 179;
+   z-index: 178;
    overflow: hidden;
 }
 #wb_IconFont17
@@ -12612,55 +12579,55 @@ body
    width: 46px;
    height: 48px;
    text-align: center;
-   z-index: 123;
+   z-index: 122;
 }
 #wb_Card11
 {
    display: flex;
    width: 100%;
-   z-index: 116;
+   z-index: 115;
    overflow: hidden;
 }
 #wb_Card12
 {
    display: flex;
    width: 100%;
-   z-index: 104;
+   z-index: 103;
    overflow: hidden;
 }
 #wb_Card9
 {
    display: flex;
    width: 100%;
-   z-index: 51;
+   z-index: 50;
    overflow: hidden;
 }
 #wb_STSM2626
 {
    display: flex;
    width: 100%;
-   z-index: 30;
+   z-index: 29;
    overflow: hidden;
 }
 #wb_Card26
 {
    display: flex;
    width: 100%;
-   z-index: 170;
+   z-index: 169;
    overflow: hidden;
 }
 #wb_Card8
 {
    display: flex;
    width: 100%;
-   z-index: 105;
+   z-index: 104;
    overflow: hidden;
 }
 #wb_Card13
 {
    display: flex;
    width: 100%;
-   z-index: 93;
+   z-index: 92;
    overflow: hidden;
 }
 #noResults
@@ -12683,47 +12650,47 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 161;
+   z-index: 160;
    overflow: hidden;
 }
 #HorizontalLine8
 {
    display: block;
    width: 100%;
-   z-index: 87;
+   z-index: 86;
 }
 #wb_EFES2724
 {
    display: flex;
    width: 100%;
-   z-index: 32;
+   z-index: 31;
    overflow: hidden;
 }
 #wb_Card20
 {
    display: flex;
    width: 100%;
-   z-index: 188;
+   z-index: 187;
    overflow: hidden;
 }
 #HorizontalLine9
 {
    display: block;
    width: 100%;
-   z-index: 75;
+   z-index: 74;
 }
 #wb_EMJ1644
 {
    display: flex;
    width: 100%;
-   z-index: 50;
+   z-index: 49;
    overflow: hidden;
 }
 #wb_KOL1644
 {
    display: flex;
    width: 100%;
-   z-index: 47;
+   z-index: 46;
    overflow: hidden;
 }
 #wb_menu15Logo2
@@ -12744,74 +12711,66 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 126;
+   z-index: 125;
 }
 #wb_Heading14
 {
    display: block;
    width: 100%;
-   z-index: 125;
+   z-index: 124;
 }
 #wb_Heading11
 {
    display: block;
    width: 100%;
-   z-index: 124;
+   z-index: 123;
 }
 #wb_Card23
 {
    display: flex;
    width: 100%;
-   z-index: 64;
+   z-index: 63;
    overflow: hidden;
 }
 #wb_MATM1534
 {
    display: flex;
    width: 100%;
-   z-index: 25;
+   z-index: 24;
    overflow: hidden;
-}
-#wb_logoIcon
-{
-   display: inline-block;
-   width: 32px;
-   height: 32px;
-   text-align: center;
-   z-index: 15;
 }
 #wb_Card22
 {
    display: flex;
    width: 100%;
-   z-index: 143;
+   z-index: 142;
    overflow: hidden;
 }
 #HorizontalLine6
 {
    display: block;
    width: 100%;
-   z-index: 137;
+   z-index: 136;
 }
 #wb_Card5
 {
    display: flex;
    width: 100%;
-   z-index: 133;
+   z-index: 132;
    overflow: hidden;
 }
 #wb_EDM1644
 {
    display: flex;
    width: 100%;
-   z-index: 48;
+   z-index: 47;
    overflow: hidden;
 }
 #wb_Card4
 {
    display: flex;
    width: 100%;
-   z-index: 152;
+   z-index: 151;
    overflow: hidden;
 }
 #contactName
@@ -12819,26 +12778,26 @@ body
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 127;
+   z-index: 126;
 }
 #HorizontalLine7
 {
    display: block;
    width: 100%;
-   z-index: 53;
+   z-index: 52;
 }
 #wb_CHEM1643
 {
    display: flex;
    width: 100%;
-   z-index: 34;
+   z-index: 33;
    overflow: hidden;
 }
 #wb_CHEM1623
 {
    display: flex;
    width: 100%;
-   z-index: 33;
+   z-index: 32;
    overflow: hidden;
 }
 #backToTop
@@ -12851,39 +12810,39 @@ body
    bottom: 25px;
    width: 50px;
    height: 50px;
-   z-index: 328;
+   z-index: 327;
 }
 #wb_ListView1
 {
    display: block;
    width: 100%;
-   z-index: 197;
+   z-index: 196;
 }
 #HorizontalLine4
 {
    display: block;
    width: 100%;
-   z-index: 155;
+   z-index: 154;
 }
 #wb_Card18
 {
    display: flex;
    width: 100%;
-   z-index: 94;
+   z-index: 93;
    overflow: hidden;
 }
 #wb_Card7
 {
    display: flex;
    width: 100%;
-   z-index: 81;
+   z-index: 80;
    overflow: hidden;
 }
 #wb_MATR1544
 {
    display: flex;
    width: 100%;
-   z-index: 26;
+   z-index: 25;
    overflow: hidden;
 }
 #wb_backToTopIcon
@@ -12894,7 +12853,7 @@ body
    width: 24px;
    height: 24px;
    text-align: center;
-   z-index: 16;
+   z-index: 15;
 }
 @media only screen and (min-width: 1920px)
 {
@@ -13174,26 +13133,6 @@ body
 {
    margin-right: 0px;
    margin-left: 0px;
-}
-#wb_logoIcon
-{
-   width: 32px;
-   height: 32px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#logoIcon
-{
-   width: 32px;
-   height: 32px;
-}
-#logoIcon i
-{
-   line-height: 32px;
-   font-size: 32px;
-   width: 35px;
 }
 #wb_trendingText2
 {
@@ -18920,26 +18859,6 @@ body
 {
    margin-right: 0px;
    margin-left: 0px;
-}
-#wb_logoIcon
-{
-   width: 32px;
-   height: 32px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-   padding: 0;
-}
-#logoIcon
-{
-   width: 32px;
-   height: 32px;
-}
-#logoIcon i
-{
-   line-height: 32px;
-   font-size: 32px;
-   width: 35px;
 }
 #wb_trendingText2
 {
