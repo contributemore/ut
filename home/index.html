@@ -86,20 +86,15 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_HSP').offset().top }, 600, 'easeOutCubic');
    });
-   $("a[href*='#Welcome']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_Welcome').offset().top }, 600, 'easeOutCirc');
-   });
    $("a[href*='#LayoutGrid36']").click(function(event)
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid36').offset().top }, 600, 'easeOutCubic');
    });
-   $("a[href*='#categoriesLayoutGrid1']").click(function(event)
+   $("a[href*='#Search']").click(function(event)
    {
       event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#wb_categoriesLayoutGrid1').offset().top-57 }, 600, 'easeOutSine');
+      $('html, body').stop().animate({ scrollTop: $('#wb_Search').offset().top-57 }, 600, 'easeOutSine');
    });
    $("a[href*='#ModuleCodes']").click(function(event)
    {
@@ -185,6 +180,11 @@ $(document).ready(function()
    {
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_TACSF2716').offset().top }, 600, 'easeOutCubic');
+   });
+   $("a[href*='#TCHEM1623']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_TCHEM1623').offset().top }, 600, 'easeOutCubic');
    });
    $("a[href*='#TEFES2724']").click(function(event)
    {
@@ -456,6 +456,26 @@ $(document).ready(function()
       event.preventDefault();
       $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid72').offset().top }, 600, 'easeOutCubic');
    });
+   $("a[href*='#LayoutGrid74']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid74').offset().top-57 }, 600, 'easeOutSine');
+   });
+   $("a[href*='#LayoutGrid75']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid75').offset().top-57 }, 600, 'easeOutSine');
+   });
+   $("a[href*='#LayoutGrid76']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid76').offset().top }, 600, 'easeOutCubic');
+   });
+   $("a[href*='#LayoutGrid78']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid78').offset().top }, 600, 'easeOutCubic');
+   });
    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
 });
 $(window).on('load', function()
@@ -540,6 +560,14 @@ $(window).on('load', function()
 </div>
 </div>
 </div>
+<div id="wb_Breadcrumb1">
+<ul id="Breadcrumb1">
+<li><a href="">Home</a></li>
+<li><a href="">Parent Category</a></li>
+<li><a href="">Current Category</a></li>
+</ul>
+
+</div>
 </div>
 </div>
 </div>
@@ -547,18 +575,15 @@ $(window).on('load', function()
 
 <div id="wb_Welcome">
 <div id="Welcome">
-<div class="row">
 <div class="col-1">
-<div id="wb_logoHeading">
-<h1 id="logoHeading">Welcome to UFS Tutors</h1>
+<div id="wb_social6Heading">
+<h1 id="social6Heading">Welcome to UFS Tutors</h1>
 </div>
-<div id="wb_logoText1">
-<span style="color:#000000;font-family:Arial;font-size:19px;">Connecting Students To Tutors</span>
-</div>
-<div id="wb_logoIcon">
-<div id="logoIcon"><i class="fa fa-line-chart"></i></div>
+<div id="wb_social6Text">
+<p>Connecting Students To Tutors</p>
 </div>
 </div>
+<div class="col-2">
 </div>
 </div>
 </div>
@@ -575,8 +600,8 @@ $(window).on('load', function()
 </div>
 </div>
 </div>
-<div id="wb_categoriesLayoutGrid1">
-<div id="categoriesLayoutGrid1">
+<div id="wb_Search">
+<div id="Search">
 <div class="row">
 <div class="col-1">
 <div class="col-1-padding">
@@ -684,10 +709,16 @@ $(window).on('load', function()
 <div id="EFES2724-card-item1">This Economics module covers Financial Instruments, Markets and Institutions.</div>
 </div>
 </div>
-<div id="wb_Card25" class="card module-card" onclick="window.location.href='#TCHEM1643';return false;">
-<div id="Card25-card-body">
-<div id="Card25-card-item0">CHEM1643</div>
-<div id="Card25-card-item1">This module covers first-year Organic Chemistry Theory. Often taken alongside CHEM1661.</div>
+<div id="wb_CHEM1623" class="card module-card" onclick="window.location.href='#TCHEM1623';return false;">
+<div id="CHEM1623-card-body">
+<div id="CHEM1623-card-item0">CHEM1623</div>
+<div id="CHEM1623-card-item1">Physical Chemistry foundations; covers thermodynamics, kinetics, gases, solutions. Usually paired with CHEM1643.</div>
+</div>
+</div>
+<div id="wb_CHEM1643" class="card module-card" onclick="window.location.href='#TCHEM1643';return false;">
+<div id="CHEM1643-card-body">
+<div id="CHEM1643-card-item0">CHEM1643</div>
+<div id="CHEM1643-card-item1">Introduction to Chemistry (Physical & Organic); spans thermodynamics, kinetics, gases, plus alkanes, alcohols, carbonyls, amines. Often taken alongside CHEM1623.</div>
 </div>
 </div>
 </div>
@@ -1638,6 +1669,77 @@ $(window).on('load', function()
 </div>
 </div>
 </div>
+<div id="wb_TCHEM1623">
+<div id="TCHEM1623">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid74">
+<div id="LayoutGrid74">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text28">
+<span style="color:#000000;font-family:Arial;font-size:32px;"><strong>CHEM1623 Tutors</strong></span>
+</div>
+<div id="wb_Text29">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Best of the best</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid75">
+<div id="LayoutGrid75">
+<div class="row">
+<div class="col-1">
+<div id="wb_LayoutGrid76">
+<div id="LayoutGrid76">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card26" class="card contact-card" onclick="window.location.href='./../tutors/Eric_Modise/';return false;">
+<div id="Card26-card-body">
+<img id="Card26-card-item0" src="images/ERI.jpg" loading="lazy" width="640" height="640" alt="" title="">
+<div id="Card26-card-item1">Eric Modise</div>
+<div id="Card26-card-item2">The Top 2nd year animal science student, and top chemistry student last year.</div>
+<div id="Card26-card-item3">R150/h</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_LayoutGrid77">
+<div id="LayoutGrid77">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid78">
+<div id="LayoutGrid78">
+<div class="row">
+<div class="col-1">
+<hr id="HorizontalLine16">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <div id="wb_TEFES2724">
 <div id="TEFES2724">
 <div class="row">
@@ -1719,7 +1821,7 @@ $(window).on('load', function()
 <div class="col-1">
 <div class="col-1-padding">
 <div id="wb_Text26">
-<span style="color:#000000;font-family:Arial;font-size:32px;"><strong>CHEM1623 Tutors</strong></span>
+<span style="color:#000000;font-family:Arial;font-size:32px;"><strong>CHEM1643 Tutors</strong></span>
 </div>
 <div id="wb_Text27">
 <span style="color:#000000;font-family:Arial;font-size:13px;">Best of the best</span>
@@ -1789,8 +1891,20 @@ $(window).on('load', function()
 <div class="row">
 <div class="col-1">
 <div class="col-1-padding">
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
 <div id="wb_Text5">
 <span style="color:#000000;font-family:Arial;font-size:32px;"><strong>Supported Modules</strong></span>
+</div>
+</div>
+<div class="col-3">
+</div>
+</div>
+</div>
 </div>
 <div id="wb_ListView1">
 <ul id="ListView1">
@@ -1806,6 +1920,7 @@ $(window).on('load', function()
    <li class=""><a href="" class="state-default btn" onclick="window.location.href='#TSTSM2626';return false;">STSM2626</a></li>
    <li class=""><a href="" class="state-default btn" onclick="window.location.href='#TACSF2716';return false;">ACSF2716</a></li>
    <li class=""><a href="" class="state-default btn" onclick="window.location.href='#TEFES2724';return false;">EFES2724</a></li>
+   <li class=""><a href="" class="state-default btn" onclick="window.location.href='#TCHEM1623';return false;">CHEM1623</a></li>
    <li class="last-child"><a href="" class="state-default btn" onclick="window.location.href='#TCHEM1643';return false;">CHEM1643</a></li>
 </ul>
 </div>
