@@ -2151,10 +2151,10 @@ body
 }
 #wb_categoriesText1
 {
-   display: inline-block;
+   display: block;
    margin: 0;
-   width: 235px;
-   height: 21px;
+   box-sizing: border-box;
+   width: 100%;
 }
 #wb_trendingText1 
 {
@@ -3106,27 +3106,6 @@ body
    margin: 0;
    text-align: center;
    text-transform: none;
-}
-#wb_categoriesText2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 10px 0 10px 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_categoriesText2 div
-{
-   text-align: center;
-}
-#wb_categoriesText2
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
 }
 #wb_KOL1644
 {
@@ -11606,16 +11585,19 @@ body
 #LayoutGrid2
 {
    box-sizing: border-box;
-   padding: 0 15px 50px 15px;
+   width: 100%;
+   padding: 25px 15px 25px 15px;
    margin-right: auto;
    margin-left: auto;
 }
 #LayoutGrid2 > .row
 {
+   display: grid;
+   grid-template-columns: repeat(12, 8.333333%);
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+#LayoutGrid2 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -11623,10 +11605,10 @@ body
    padding-right: 15px;
    padding-left: 15px;
    position: relative;
+   grid-column: span 12;
 }
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+#LayoutGrid2 > .row > .col-1
 {
-   float: left;
 }
 #LayoutGrid2 > .row > .col-1
 {
@@ -11634,46 +11616,19 @@ body
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid2 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid2:before,
-#LayoutGrid2:after,
-#LayoutGrid2 .row:before,
-#LayoutGrid2 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid2:after,
-#LayoutGrid2 .row:after
-{
-   clear: both;
+   grid-column: span 12;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   text-align: right;
 }
 @media (max-width: 480px)
 {
-#LayoutGrid2 > .row > .col-1, #LayoutGrid2 > .row > .col-2, #LayoutGrid2 > .row > .col-3
+#LayoutGrid2 > .row > .col-1
 {
-   float: none;
-   width: 100% !important;
+   width: 100%;
+   grid-column: span 12;
 }
 }
 #wb_LayoutGrid74
@@ -12271,7 +12226,23 @@ body
    box-sizing: border-box;
    width: 100%;
 }
-#wb_LayoutGrid73
+#wb_Text31 
+{
+   padding: 10px 0 10px 0;
+   margin: 0;
+}
+#wb_Text31 div
+{
+   text-align: center;
+}
+#wb_Text31
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_LayoutGrid6
 {
    clear: both;
    position: relative;
@@ -12286,19 +12257,17 @@ body
    box-sizing: border-box;
    margin: 0;
 }
-#LayoutGrid73
+#LayoutGrid6
 {
    box-sizing: border-box;
-   padding: 0 15px 0 15px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 25px 0 25px 0;
    margin-right: auto;
    margin-left: auto;
 }
-#LayoutGrid73 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid73 > .row > .col-1, #LayoutGrid73 > .row > .col-2, #LayoutGrid73 > .row > .col-3
+#LayoutGrid6 > .col-1
 {
    box-sizing: border-box;
    font-size: 0;
@@ -12307,84 +12276,44 @@ body
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid73 > .row > .col-1, #LayoutGrid73 > .row > .col-2, #LayoutGrid73 > .row > .col-3
+#LayoutGrid6 > .col-1
 {
-   float: left;
+   flex: 0 0 auto;
 }
-#LayoutGrid73 > .row > .col-1
+#LayoutGrid6 > .col-1
 {
    background-color: transparent;
    background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid73 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 50%;
-   text-align: center;
-}
-#LayoutGrid73 > .row > .col-3
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 25%;
-   text-align: center;
-}
-#LayoutGrid73:before,
-#LayoutGrid73:after,
-#LayoutGrid73 .row:before,
-#LayoutGrid73 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid73:after,
-#LayoutGrid73 .row:after
-{
-   clear: both;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   align-self: stretch;
+   align-items: center;
+   justify-content: flex-end;
+   text-align: right;
 }
 @media (max-width: 480px)
 {
-#LayoutGrid73 > .row > .col-1, #LayoutGrid73 > .row > .col-2, #LayoutGrid73 > .row > .col-3
+#LayoutGrid6 > .col-1
 {
-   float: none;
-   width: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
 }
 }
-#wb_Text30 
-{
-   padding: 10px 0 10px 0;
-   margin: 0;
-}
-#wb_Text30 div
-{
-   text-align: center;
-}
-#wb_Text30
-{
-   display: block;
-   margin: 0;
-   box-sizing: border-box;
-   width: 100%;
-}
-#wb_Text31 
+#wb_Text33 
 {
    padding: 10px 0 10px 0;
    margin: 0;
 }
-#wb_Text31 div
+#wb_Text33 div
 {
    text-align: center;
 }
-#wb_Text31
+#wb_Text33
 {
    display: block;
    margin: 0;
@@ -12457,20 +12386,20 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 120;
+   z-index: 119;
 }
 #wb_Card19
 {
    display: flex;
    width: 100%;
-   z-index: 97;
+   z-index: 96;
    overflow: hidden;
 }
 #wb_Card6
 {
    display: none;
    width: 100%;
-   z-index: 83;
+   z-index: 82;
    overflow: hidden;
 }
 #wb_Card1
@@ -12478,33 +12407,33 @@ body
    display: inline-block;
    width: 302px;
    height: 354px;
-   z-index: 325;
+   z-index: 322;
 }
 #contactEmail
 {
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 129;
+   z-index: 128;
 }
 #wb_KOL1622
 {
    display: flex;
    width: 100%;
-   z-index: 115;
+   z-index: 114;
    overflow: hidden;
 }
 #HorizontalLine2
 {
    display: block;
    width: 100%;
-   z-index: 109;
+   z-index: 108;
 }
 #wb_EMAC2724
 {
    display: flex;
    width: 100%;
-   z-index: 30;
+   z-index: 29;
    overflow: hidden;
 }
 #wb_social6Heading
@@ -12518,47 +12447,47 @@ body
    display: inline-block;
    width: 95px;
    height: 36px;
-   z-index: 131;
+   z-index: 130;
 }
 #HorizontalLine3
 {
    display: block;
    width: 100%;
-   z-index: 45;
+   z-index: 44;
 }
 #wb_ACSF2716
 {
    display: flex;
    width: 100%;
-   z-index: 32;
+   z-index: 31;
    overflow: hidden;
 }
 #wb_Card3
 {
    display: flex;
    width: 100%;
-   z-index: 73;
+   z-index: 72;
    overflow: hidden;
 }
 #wb_Card14
 {
    display: flex;
    width: 100%;
-   z-index: 62;
+   z-index: 61;
    overflow: hidden;
 }
 #wb_MATA2664
 {
    display: flex;
    width: 100%;
-   z-index: 24;
+   z-index: 23;
    overflow: hidden;
 }
 #wb_ACSF1623
 {
    display: flex;
    width: 100%;
-   z-index: 23;
+   z-index: 22;
    overflow: hidden;
 }
 #wb_Card2
@@ -12566,69 +12495,69 @@ body
    display: inline-block;
    width: 289px;
    height: 299px;
-   z-index: 326;
+   z-index: 323;
 }
 #HorizontalLine15
 {
    display: block;
    width: 100%;
-   z-index: 192;
+   z-index: 191;
 }
 #HorizontalLine14
 {
    display: block;
    width: 100%;
-   z-index: 183;
+   z-index: 182;
 }
 #HorizontalLine16
 {
    display: block;
    width: 100%;
-   z-index: 174;
+   z-index: 173;
 }
 #HorizontalLine13
 {
    display: block;
    width: 100%;
-   z-index: 165;
+   z-index: 164;
 }
 #HorizontalLine12
 {
    display: block;
    width: 100%;
-   z-index: 147;
+   z-index: 146;
 }
 #contactMessage
 {
    display: block;
    width: 100%;
    height: 144px;
-   z-index: 130;
+   z-index: 129;
 }
 #HorizontalLine10
 {
    display: block;
    width: 100%;
-   z-index: 99;
+   z-index: 98;
 }
 #HorizontalLine11
 {
    display: block;
    width: 100%;
-   z-index: 67;
+   z-index: 66;
 }
 #wb_Card15
 {
    display: flex;
    width: 100%;
-   z-index: 63;
+   z-index: 62;
    overflow: hidden;
 }
 #wb_AI_Deep_Learning
 {
    display: flex;
    width: 100%;
-   z-index: 28;
+   z-index: 27;
    overflow: hidden;
 }
 #HorizontalLine1
@@ -12641,56 +12570,56 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 86;
+   z-index: 85;
    overflow: hidden;
 }
 #wb_MATM1644
 {
    display: flex;
    width: 100%;
-   z-index: 22;
+   z-index: 21;
    overflow: hidden;
 }
 #wb_Card17
 {
    display: flex;
    width: 100%;
-   z-index: 135;
+   z-index: 134;
    overflow: hidden;
 }
 #wb_EMJ1622
 {
    display: none;
    width: 100%;
-   z-index: 116;
+   z-index: 115;
    overflow: hidden;
 }
 #wb_Card10
 {
    display: flex;
    width: 100%;
-   z-index: 84;
+   z-index: 83;
    overflow: hidden;
 }
 #wb_STSM1624
 {
    display: flex;
    width: 100%;
-   z-index: 29;
+   z-index: 28;
    overflow: hidden;
 }
 #wb_MATM1622
 {
    display: flex;
    width: 100%;
-   z-index: 25;
+   z-index: 24;
    overflow: hidden;
 }
 #wb_Card24
 {
    display: flex;
    width: 100%;
-   z-index: 180;
+   z-index: 179;
    overflow: hidden;
 }
 #wb_IconFont17
@@ -12699,55 +12628,55 @@ body
    width: 46px;
    height: 48px;
    text-align: center;
-   z-index: 124;
+   z-index: 123;
 }
 #wb_Card11
 {
    display: flex;
    width: 100%;
-   z-index: 117;
+   z-index: 116;
    overflow: hidden;
 }
 #wb_Card12
 {
    display: flex;
    width: 100%;
-   z-index: 105;
+   z-index: 104;
    overflow: hidden;
 }
 #wb_Card9
 {
    display: flex;
    width: 100%;
-   z-index: 52;
+   z-index: 51;
    overflow: hidden;
 }
 #wb_STSM2626
 {
    display: flex;
    width: 100%;
-   z-index: 31;
+   z-index: 30;
    overflow: hidden;
 }
 #wb_Card26
 {
    display: flex;
    width: 100%;
-   z-index: 171;
+   z-index: 170;
    overflow: hidden;
 }
 #wb_Card8
 {
    display: flex;
    width: 100%;
-   z-index: 106;
+   z-index: 105;
    overflow: hidden;
 }
 #wb_Card13
 {
    display: flex;
    width: 100%;
-   z-index: 94;
+   z-index: 93;
    overflow: hidden;
 }
 #noResults
@@ -12770,47 +12699,47 @@ body
 {
    display: flex;
    width: 100%;
-   z-index: 162;
+   z-index: 161;
    overflow: hidden;
 }
 #HorizontalLine8
 {
    display: block;
    width: 100%;
-   z-index: 88;
+   z-index: 87;
 }
 #wb_EFES2724
 {
    display: flex;
    width: 100%;
-   z-index: 33;
+   z-index: 32;
    overflow: hidden;
 }
 #wb_Card20
 {
    display: flex;
    width: 100%;
-   z-index: 189;
+   z-index: 188;
    overflow: hidden;
 }
 #HorizontalLine9
 {
    display: block;
    width: 100%;
-   z-index: 76;
+   z-index: 75;
 }
 #wb_EMJ1644
 {
    display: flex;
    width: 100%;
-   z-index: 51;
+   z-index: 50;
    overflow: hidden;
 }
 #wb_KOL1644
 {
    display: flex;
    width: 100%;
-   z-index: 48;
+   z-index: 47;
    overflow: hidden;
 }
 #wb_menu15Logo2
@@ -12831,66 +12760,66 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 127;
+   z-index: 126;
 }
 #wb_Heading14
 {
    display: block;
    width: 100%;
-   z-index: 126;
+   z-index: 125;
 }
 #wb_Heading11
 {
    display: block;
    width: 100%;
-   z-index: 125;
+   z-index: 124;
 }
 #wb_Card23
 {
    display: flex;
    width: 100%;
-   z-index: 65;
+   z-index: 64;
    overflow: hidden;
 }
 #wb_MATM1534
 {
    display: flex;
    width: 100%;
-   z-index: 26;
+   z-index: 25;
    overflow: hidden;
 }
 #wb_Card22
 {
    display: flex;
    width: 100%;
-   z-index: 144;
+   z-index: 143;
    overflow: hidden;
 }
 #HorizontalLine6
 {
    display: block;
    width: 100%;
-   z-index: 138;
+   z-index: 137;
 }
 #wb_Card5
 {
    display: flex;
    width: 100%;
-   z-index: 134;
+   z-index: 133;
    overflow: hidden;
 }
 #wb_EDM1644
 {
    display: flex;
    width: 100%;
-   z-index: 49;
+   z-index: 48;
    overflow: hidden;
 }
 #wb_Card4
 {
    display: flex;
    width: 100%;
-   z-index: 153;
+   z-index: 152;
    overflow: hidden;
 }
 #contactName
@@ -12898,26 +12827,26 @@ body
    display: block;
    width: 100%;
    height: 36px;
-   z-index: 128;
+   z-index: 127;
 }
 #HorizontalLine7
 {
    display: block;
    width: 100%;
-   z-index: 54;
+   z-index: 53;
 }
 #wb_CHEM1643
 {
    display: flex;
    width: 100%;
-   z-index: 35;
+   z-index: 34;
    overflow: hidden;
 }
 #wb_CHEM1623
 {
    display: flex;
    width: 100%;
-   z-index: 34;
+   z-index: 33;
    overflow: hidden;
 }
 #backToTop
@@ -12930,39 +12859,39 @@ body
    bottom: 25px;
    width: 50px;
    height: 50px;
-   z-index: 334;
+   z-index: 331;
 }
 #wb_ListView1
 {
    display: block;
    width: 100%;
-   z-index: 199;
+   z-index: 198;
 }
 #HorizontalLine4
 {
    display: block;
    width: 100%;
-   z-index: 156;
+   z-index: 155;
 }
 #wb_Card18
 {
    display: flex;
    width: 100%;
-   z-index: 95;
+   z-index: 94;
    overflow: hidden;
 }
 #wb_Card7
 {
    display: flex;
    width: 100%;
-   z-index: 82;
+   z-index: 81;
    overflow: hidden;
 }
 #wb_MATR1544
 {
    display: flex;
    width: 100%;
-   z-index: 27;
+   z-index: 26;
    overflow: hidden;
 }
 #wb_backToTopIcon
@@ -13266,10 +13195,8 @@ body
 }
 #wb_categoriesText1
 {
-   width: 235px;
-   height: 21px;
    visibility: visible;
-   display: inline-block;
+   display: block;
 }
 #wb_categoriesText1
 {
@@ -13790,16 +13717,6 @@ body
    font-size: 16px;
    text-align: center;
    text-transform: none;
-}
-#wb_categoriesText2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_categoriesText2
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
 }
 #wb_KOL1644
 {
@@ -18700,75 +18617,22 @@ body
 {
    text-align: left;
 }
-#wb_LayoutGrid73
-{
-   visibility: visible;
-   display: table;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-}
-#wb_LayoutGrid73
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid73
-{
-   height: auto;
-   padding: 50px 15px 50px 15px;
-}
-#LayoutGrid73 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid73 > .row > .col-1, #LayoutGrid73 > .row > .col-2, #LayoutGrid73 > .row > .col-3
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid73 > .row > .col-1
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid73 > .row > .col-2
-{
-   display: block;
-   width: 50%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid73 > .row > .col-3
-{
-   display: block;
-   width: 25%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Text30
+#wb_Text31
 {
    visibility: visible;
    display: block;
 }
-#wb_Text30
+#wb_Text31
 {
    margin: 0;
    padding: 10px 0 10px 0;
 }
-#wb_Text31
+#wb_Text33
 {
    visibility: visible;
    display: block;
 }
-#wb_Text31
+#wb_Text33
 {
    margin: 0;
    padding: 10px 0 10px 0;
@@ -19065,10 +18929,8 @@ body
 }
 #wb_categoriesText1
 {
-   width: 235px;
-   height: 21px;
    visibility: visible;
-   display: inline-block;
+   display: block;
 }
 #wb_categoriesText1
 {
@@ -19589,16 +19451,6 @@ body
    font-size: 16px;
    text-align: center;
    text-transform: none;
-}
-#wb_categoriesText2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_categoriesText2
-{
-   margin: 0;
-   padding: 10px 0 10px 0;
 }
 #wb_KOL1644
 {
@@ -24499,75 +24351,22 @@ body
 {
    text-align: left;
 }
-#wb_LayoutGrid73
-{
-   visibility: visible;
-   display: table;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-}
-#wb_LayoutGrid73
-{
-   height: auto;
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#LayoutGrid73
-{
-   height: auto;
-   padding: 50px 15px 50px 15px;
-}
-#LayoutGrid73 .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid73 > .row > .col-1, #LayoutGrid73 > .row > .col-2, #LayoutGrid73 > .row > .col-3
-{
-   padding-right: 15px;
-   padding-left: 15px;
-}
-#LayoutGrid73 > .row > .col-1
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid73 > .row > .col-2
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#LayoutGrid73 > .row > .col-3
-{
-   display: block;
-   width: 100%;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   text-align: left;
-}
-#wb_Text30
+#wb_Text31
 {
    visibility: visible;
    display: block;
 }
-#wb_Text30
+#wb_Text31
 {
    margin: 0;
    padding: 10px 0 10px 0;
 }
-#wb_Text31
+#wb_Text33
 {
    visibility: visible;
    display: block;
 }
-#wb_Text31
+#wb_Text33
 {
    margin: 0;
    padding: 10px 0 10px 0;
