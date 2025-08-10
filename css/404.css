@@ -1435,7 +1435,7 @@ body
    border: 0px solid #CCCCCC;
    border-radius: 0px;
    box-sizing: border-box;
-   margin: 0;
+   margin: 0 0 100px 0 ;
 }
 #Welcome
 {
@@ -1557,7 +1557,7 @@ body
 #wb_Text33 
 {
    padding: 0;
-   margin: 0;
+   margin: 50px 0 0 0 ;
 }
 #wb_Text33 div
 {
@@ -1566,7 +1566,7 @@ body
 #wb_Text33
 {
    display: block;
-   margin: 0;
+   margin: 50px 0 0 0 ;
    box-sizing: border-box;
    width: 100%;
 }
