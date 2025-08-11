@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.ufstutors.co.za/home/</loc>
-		<lastmod>2025-08-10</lastmod>
+		<lastmod>2025-08-11</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
@@ -69,6 +69,12 @@
 	<url>
 		<loc>https://www.ufstutors.co.za/tutors/Eric_Modise/</loc>
 		<lastmod>2025-08-06</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+	<url>
+		<loc>https://www.ufstutors.co.za/tutors/Innomind_Tutors/</loc>
+		<lastmod>2025-08-11</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
