@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Allow: /home/
+Allow: /tutors/
+Disallow: /images/
 Disallow: /images/
 Sitemap: https://www.ufstutors.co.za/sitemap.xml
