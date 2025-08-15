@@ -1226,7 +1226,7 @@ body
    font-family: Arial;
    font-weight: bold;
    font-style: normal;
-   font-size: 64px;
+   font-size: 53px;
    margin: 0;
    text-align: left;
    text-transform: none;
@@ -1244,7 +1244,7 @@ body
    border: 0px solid #DDDDDD;
    border-radius: 0px;
    box-sizing: border-box;
-   margin: 30px 0 30px 0 ;
+   margin: 10px 0 10px 0 ;
 }
 #LayoutGrid2
 {
@@ -1255,8 +1255,8 @@ body
 }
 #LayoutGrid2 > .row
 {
-   margin-right: 15px;
-   margin-left: 15px;
+   margin-right: -5px;
+   margin-left: -5px;
 }
 #LayoutGrid2 > .row > .col-1
 {
@@ -1301,76 +1301,6 @@ body
    width: 100% !important;
 }
 }
-#wb_LayoutGrid4
-{
-   clear: both;
-   position: relative;
-   table-layout: fixed;
-   display: table;
-   text-align: center;
-   width: 100%;
-   background-color: #FFFFFF;
-   background-image: none;
-   border: 0px solid #DDDDDD;
-   border-radius: 0px;
-   box-sizing: border-box;
-   margin: 0;
-}
-#LayoutGrid4
-{
-   box-sizing: border-box;
-   padding: 0 15px 0 15px;
-   margin-right: auto;
-   margin-left: auto;
-}
-#LayoutGrid4 > .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   box-sizing: border-box;
-   font-size: 0;
-   min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
-   position: relative;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   float: left;
-}
-#LayoutGrid4 > .row > .col-1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   width: 100%;
-   text-align: center;
-}
-#LayoutGrid4:before,
-#LayoutGrid4:after,
-#LayoutGrid4 .row:before,
-#LayoutGrid4 .row:after
-{
-   display: table;
-   content: " ";
-}
-#LayoutGrid4:after,
-#LayoutGrid4 .row:after
-{
-   clear: both;
-}
-@media (max-width: 480px)
-{
-#LayoutGrid4 > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
 #wb_LayoutGrid5
 {
    clear: both;
@@ -1384,7 +1314,7 @@ body
    border: 0px solid #DDDDDD;
    border-radius: 0px;
    box-sizing: border-box;
-   margin: 30px 0 30px 0 ;
+   margin: 10px 0 10px 0 ;
 }
 #LayoutGrid5
 {
@@ -1395,8 +1325,8 @@ body
 }
 #LayoutGrid5 > .row
 {
-   margin-right: 15px;
-   margin-left: 15px;
+   margin-right: -5px;
+   margin-left: -5px;
 }
 #LayoutGrid5 > .row > .col-1
 {
@@ -1537,7 +1467,7 @@ body
    border: 0px solid #DDDDDD;
    border-radius: 0px;
    box-sizing: border-box;
-   margin: 30px 0 30px 0 ;
+   margin: 10px 0 10px 0 ;
 }
 #LayoutGrid6
 {
@@ -1548,8 +1478,8 @@ body
 }
 #LayoutGrid6 > .row
 {
-   margin-right: 15px;
-   margin-left: 15px;
+   margin-right: -5px;
+   margin-left: -5px;
 }
 #LayoutGrid6 > .row > .col-1
 {
@@ -1649,7 +1579,7 @@ body
    border: 0px solid #DDDDDD;
    border-radius: 0px;
    box-sizing: border-box;
-   margin: 30px 0 30px 0 ;
+   margin: 10px 0 10px 0 ;
 }
 #LayoutGrid7
 {
@@ -1660,8 +1590,8 @@ body
 }
 #LayoutGrid7 > .row
 {
-   margin-right: 15px;
-   margin-left: 15px;
+   margin-right: -5px;
+   margin-left: -5px;
 }
 #LayoutGrid7 > .row > .col-1
 {
