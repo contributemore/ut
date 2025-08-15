@@ -1564,7 +1564,7 @@ body
 #Card4-card-item2
 {
    box-sizing: border-box;
-   margin: 10px 0 0 0 ;
+   margin: 10px 0 10px 0 ;
    padding: 0;
    color: #212529;
    font-family: Arial;
@@ -13567,7 +13567,7 @@ body
 {
    display: inline-block;
    width: 261px;
-   height: 292px;
+   height: 302px;
    z-index: 346;
 }
 #contactName
