@@ -103,6 +103,14 @@ h6, .h6
    background-color: transparent;
    cursor: pointer  !important;
 }
+.QuickRegister
+{
+   text-decoration: none;
+   background-color: #C7C7C7;
+   --background-color: rgba(199,199,199,1.00);
+   cursor: pointer  !important;
+   box-shadow: 0 0 5px #000000;
+}
 @media only screen and (min-width: 1920px)
 {
 }
