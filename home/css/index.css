@@ -1593,7 +1593,7 @@ body
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 75px 30px 75px 30px;
+   padding: 50px 30px 50px 30px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -1793,7 +1793,7 @@ body
 #Search
 {
    box-sizing: border-box;
-   padding: 40px 15px 0 15px;
+   padding: 30px 15px 0 15px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -13808,7 +13808,7 @@ body
 #Search
 {
    height: auto;
-   padding: 40px 15px 0 15px;
+   padding: 30px 15px 0 15px;
 }
 #Search .row
 {
@@ -19954,7 +19954,7 @@ body
 #Search
 {
    height: auto;
-   padding: 40px 15px 0 15px;
+   padding: 30px 15px 0 15px;
 }
 #Search .row
 {
