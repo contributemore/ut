@@ -1008,7 +1008,7 @@ body
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 75px 30px 75px 30px;
+   padding: 40px 30px 50px 30px;
    margin-right: auto;
    margin-left: auto;
    max-width: 1140px;
@@ -1216,7 +1216,7 @@ body
    border-radius: 0px;
    box-sizing: border-box;
    vertical-align: top;
-   margin: 30px 30px 30px 30px;
+   margin: 30px 30px 10px 30px;
    padding: 0;
    text-align: left;
 }
@@ -1687,7 +1687,7 @@ body
    border: 0px solid #000000;
    border-radius: 0px;
    padding: 0;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    text-align: left;
 }
 #wb_social6Text
@@ -1706,7 +1706,7 @@ body
 #wb_social6Text
 {
    display: block;
-   margin: 0;
+   margin: 0 0 10px 0 ;
    box-sizing: border-box;
    width: 100%;
 }
@@ -1877,6 +1877,36 @@ body
    float: none;
    width: 100%;
 }
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0 0 0 30px;
+   text-align: left;
+}
+#wb_Text12
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 22.5px;
+}
+#wb_Text12 p, #wb_Text12 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text12
+{
+   display: block;
+   margin: 0 0 0 30px;
+   box-sizing: border-box;
+   width: calc(100% - 30px);
 }
 #wb_Footer
 {
