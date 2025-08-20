@@ -1775,7 +1775,7 @@ body
    justify-content: center;
    text-align: center;
 }
-@media (max-width: 480px)
+@media (max-width: 1080px)
 {
 #LayoutGrid7 > .col-1, #LayoutGrid7 > .col-2
 {
@@ -1914,4 +1914,54 @@ body
    flex-basis: 100% !important;
    max-width: 100% !important;
 }
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 60px 0; /* 0px above, 60px below */
+}
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,
+              rgba(44, 187, 99, .15) 0 1px 2px,
+              rgba(44, 187, 99, .15) 0 2px 4px,
+              rgba(44, 187, 99, .15) 0 4px 8px,
+              rgba(44, 187, 99, .15) 0 8px 16px,
+              rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 180ms ease-in-out;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  padding: 0 30px;
+  height: 78px;
+  white-space: nowrap;
+}
+
+.button-33 i {
+  font-size: 24px;
+  color: green;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.25) 0 -20px 15px -12px inset,
+              rgba(44,187,99,.2) 0 2px 4px,
+              rgba(44,187,99,.2) 0 4px 8px;
+  transform: scale(1.02) rotate(-0.5deg);
 }
