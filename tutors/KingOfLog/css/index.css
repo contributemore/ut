@@ -1920,7 +1920,7 @@ body
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 0 0 60px 0; /* 0px above, 60px below */
+  margin: 0 0 60px 0;
 }
 
 .button-33 {
@@ -1946,16 +1946,15 @@ body
   font-size: 20px;
   font-weight: bold;
   user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   padding: 0 30px;
   height: 78px;
   white-space: nowrap;
 }
 
-.button-33 i {
-  font-size: 24px;
-  color: green;
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+  filter: invert(37%) sepia(79%) saturate(523%) hue-rotate(81deg) brightness(92%) contrast(88%);
 }
 
 .button-33:hover {
