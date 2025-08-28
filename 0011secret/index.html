@@ -2,28 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Voucher Generator & Verifier</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invoice Generator & Verifier</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h2 { margin-top: 30px; }
-    input, button { padding: 8px; margin: 5px 0; }
-    .result { font-weight: bold; margin-top: 10px; }
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1e40af;
+      --success: #16a34a;
+      --error: #dc2626;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: var(--radius);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.9rem;
+      margin-bottom: 6px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d1d5db;
+      border-radius: var(--radius);
+      font-size: 1rem;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: var(--radius);
+      color: white;
+      background: var(--primary);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button:hover { background: var(--primary-dark); }
+
+    .result {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: var(--radius);
+      font-weight: bold;
+      text-align: center;
+      word-break: break-all;
+      min-height: 44px; /* Ensure space always reserved for results */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .success { background: #dcfce7; color: var(--success); }
+    .error { background: #fee2e2; color: var(--error); }
+
+    .copy-btn {
+      margin-top: 8px;
+      background: #4b5563;
+    }
+
+    .copy-btn:hover { background: #374151; }
   </style>
 </head>
 <body>
-  <h1>Voucher Generator & Verifier</h1>
+  <div class="container">
+    <h1>Invoice Generator & Verifier</h1>
 
-  <!-- Generator -->
-  <h2>Generate Voucher Serial</h2>
-  <label>Voucher Number: <input type="number" id="voucherNumber"></label><br>
-  <button onclick="generateVoucher()">Generate</button>
-  <div class="result" id="generatedResult"></div>
+    <!-- Generator -->
+    <div class="card">
+      <h2>Generate Invoice</h2>
+      <label for="invoiceNumber">Invoice Number</label>
+      <input type="number" id="invoiceNumber" placeholder="Enter number">
+      <button onclick="generateInvoice()">Generate</button>
+      <div class="result" id="generatedResult" aria-live="polite"></div>
+      <button class="copy-btn" onclick="copyInvoice()" style="display:none;">Copy Serial</button>
+    </div>
 
-  <!-- Verifier -->
-  <h2>Verify Voucher Serial</h2>
-  <label>Voucher Serial: <input type="text" id="voucherSerial"></label><br>
-  <button onclick="verifyVoucher()">Verify</button>
-  <div class="result" id="verifyResult"></div>
+    <!-- Verifier -->
+    <div class="card">
+      <h2>Verify Invoice</h2>
+      <label for="invoiceSerial">Invoice Serial</label>
+      <input type="text" id="invoiceSerial" placeholder="Enter serial">
+      <button onclick="verifyInvoice()">Verify</button>
+      <div class="result" id="verifyResult" aria-live="polite"></div>
+    </div>
+  </div>
 
   <script>
     function computeChecksum(inp1) {
@@ -32,33 +138,56 @@
       return inp3;
     }
 
-    function generateVoucher() {
-      let inp1 = parseInt(document.getElementById("voucherNumber").value);
-      if (isNaN(inp1)) { alert("Enter a valid number"); return; }
+    function generateInvoice() {
+      let inp1 = parseInt(document.getElementById("invoiceNumber").value);
+      if (isNaN(inp1)) { 
+        showResult("generatedResult", "Enter a valid number", false);
+        document.querySelector(".copy-btn").style.display = "none";
+        return; 
+      }
 
       let inp3 = computeChecksum(inp1);
-      let inp4 = inp3.toString();
-      let padded = inp4.padStart(6, "0");
+      let padded = inp3.toString().padStart(6, "0");
       let serial = padded + inp1;
 
-      document.getElementById("generatedResult").innerText = "Voucher Serial: " + serial;
+      showResult("generatedResult", "Invoice Serial: " + serial, true);
+      document.querySelector(".copy-btn").style.display = "block";
+      document.querySelector(".copy-btn").setAttribute("data-serial", serial);
     }
 
-    function verifyVoucher() {
-      let inp1s = document.getElementById("voucherSerial").value;
-      if (!inp1s || inp1s.length <= 6) { alert("Enter a valid voucher serial"); return; }
+    function verifyInvoice() {
+      let inp1s = document.getElementById("invoiceSerial").value.trim();
+      if (!inp1s || inp1s.length <= 6) { 
+        showResult("verifyResult", "Enter a valid invoice serial", false);
+        return; 
+      }
 
       let inp1 = parseInt(inp1s.slice(6));
       let inp3 = computeChecksum(inp1);
-      let inp4 = inp3.toString();
-      let padded = inp4.padStart(6, "0");
+      let padded = inp3.toString().padStart(6, "0");
       let expected = padded + inp1;
 
       if (inp1s === expected) {
-        document.getElementById("verifyResult").innerText = "Valid ✔";
+        showResult("verifyResult", `Valid ✔ (Serial matches: ${expected})`, true);
       } else {
-        document.getElementById("verifyResult").innerText = "Invalid ✘";
+        showResult("verifyResult", "Invalid ✘", false);
       }
+    }
+
+    function showResult(id, msg, success) {
+      const el = document.getElementById(id);
+      el.textContent = msg;
+      el.className = "result " + (success ? "success" : "error");
+      el.style.visibility = "visible";
+    }
+
+    function copyInvoice() {
+      const btn = document.querySelector(".copy-btn");
+      const serial = btn.getAttribute("data-serial");
+      navigator.clipboard.writeText(serial).then(() => {
+        btn.textContent = "Copied!";
+        setTimeout(() => btn.textContent = "Copy Serial", 1500);
+      });
     }
   </script>
 </body>
