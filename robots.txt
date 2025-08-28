@@ -3,5 +3,6 @@ Allow: /
 Allow: /home/
 Allow: /tutors/
 Disallow: /images/
+Disallow: /0011secret/
 Disallow: /images/
 Sitemap: https://www.ufstutors.co.za/sitemap.xml
