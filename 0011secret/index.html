@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Voucher Generator & Verifier</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    h2 { margin-top: 30px; }
+    input, button { padding: 8px; margin: 5px 0; }
+    .result { font-weight: bold; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Voucher Generator & Verifier</h1>
+
+  <!-- Generator -->
+  <h2>Generate Voucher Serial</h2>
+  <label>Voucher Number: <input type="number" id="voucherNumber"></label><br>
+  <button onclick="generateVoucher()">Generate</button>
+  <div class="result" id="generatedResult"></div>
+
+  <!-- Verifier -->
+  <h2>Verify Voucher Serial</h2>
+  <label>Voucher Serial: <input type="text" id="voucherSerial"></label><br>
+  <button onclick="verifyVoucher()">Verify</button>
+  <div class="result" id="verifyResult"></div>
+
+  <script>
+    function computeChecksum(inp1) {
+      let inp2 = inp1 + 8941874414660;
+      let inp3 = Math.floor(((inp2 ** 5) - inp2) / 10 % 1000000);
+      return inp3;
+    }
+
+    function generateVoucher() {
+      let inp1 = parseInt(document.getElementById("voucherNumber").value);
+      if (isNaN(inp1)) { alert("Enter a valid number"); return; }
+
+      let inp3 = computeChecksum(inp1);
+      let inp4 = inp3.toString();
+      let padded = inp4.padStart(6, "0");
+      let serial = padded + inp1;
+
+      document.getElementById("generatedResult").innerText = "Voucher Serial: " + serial;
+    }
+
+    function verifyVoucher() {
+      let inp1s = document.getElementById("voucherSerial").value;
+      if (!inp1s || inp1s.length <= 6) { alert("Enter a valid voucher serial"); return; }
+
+      let inp1 = parseInt(inp1s.slice(6));
+      let inp3 = computeChecksum(inp1);
+      let inp4 = inp3.toString();
+      let padded = inp4.padStart(6, "0");
+      let expected = padded + inp1;
+
+      if (inp1s === expected) {
+        document.getElementById("verifyResult").innerText = "Valid ✔";
+      } else {
+        document.getElementById("verifyResult").innerText = "Invalid ✘";
+      }
+    }
+  </script>
+</body>
+</html>
