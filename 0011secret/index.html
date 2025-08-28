@@ -90,7 +90,7 @@
       font-weight: bold;
       text-align: center;
       word-break: break-all;
-      min-height: 44px; /* Ensure space always reserved for results */
+      min-height: 44px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -105,6 +105,21 @@
     }
 
     .copy-btn:hover { background: #374151; }
+
+    /* Spinner */
+    .spinner {
+      border: 4px solid #e5e7eb;
+      border-top: 4px solid var(--primary);
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
   </style>
 </head>
 <body>
@@ -138,6 +153,12 @@
       return inp3;
     }
 
+    function showSpinner(id) {
+      const el = document.getElementById(id);
+      el.innerHTML = '<div class="spinner"></div>';
+      el.className = "result";
+    }
+
     function generateInvoice() {
       let inp1 = parseInt(document.getElementById("invoiceNumber").value);
       if (isNaN(inp1)) { 
@@ -146,13 +167,18 @@
         return; 
       }
 
-      let inp3 = computeChecksum(inp1);
-      let padded = inp3.toString().padStart(6, "0");
-      let serial = padded + inp1;
+      showSpinner("generatedResult");
+      document.querySelector(".copy-btn").style.display = "none";
 
-      showResult("generatedResult", "Invoice Serial: " + serial, true);
-      document.querySelector(".copy-btn").style.display = "block";
-      document.querySelector(".copy-btn").setAttribute("data-serial", serial);
+      setTimeout(() => {
+        let inp3 = computeChecksum(inp1);
+        let padded = inp3.toString().padStart(6, "0");
+        let serial = padded + inp1;
+
+        showResult("generatedResult", "Invoice Serial: " + serial, true);
+        document.querySelector(".copy-btn").style.display = "block";
+        document.querySelector(".copy-btn").setAttribute("data-serial", serial);
+      }, 250); // 250ms delay for generation
     }
 
     function verifyInvoice() {
@@ -162,16 +188,20 @@
         return; 
       }
 
-      let inp1 = parseInt(inp1s.slice(6));
-      let inp3 = computeChecksum(inp1);
-      let padded = inp3.toString().padStart(6, "0");
-      let expected = padded + inp1;
+      showSpinner("verifyResult");
 
-      if (inp1s === expected) {
-        showResult("verifyResult", `Valid ✔ (Serial matches: ${expected})`, true);
-      } else {
-        showResult("verifyResult", "Invalid ✘", false);
-      }
+      setTimeout(() => {
+        let inp1 = parseInt(inp1s.slice(6));
+        let inp3 = computeChecksum(inp1);
+        let padded = inp3.toString().padStart(6, "0");
+        let expected = padded + inp1;
+
+        if (inp1s === expected) {
+          showResult("verifyResult", `Valid ✔ (Serial matches: ${expected})`, true);
+        } else {
+          showResult("verifyResult", "Invalid ✘", false);
+        }
+      }, 750); // 750ms delay for verification
     }
 
     function showResult(id, msg, success) {
